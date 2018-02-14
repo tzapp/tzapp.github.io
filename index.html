@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,11 +13,20 @@
     <link rel="shortcut icon" href="favicon.ico">
     <title>The Zodiac App</title>
 </head>
+
 <body>
     <h1>The Zodiac APP</h1>
     <noscript>
         You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('./service-worker.js')
+                .then(function () { console.log('Service Worker Registered'); });
+        }
+    </script>
 </body>
+
 </html>
