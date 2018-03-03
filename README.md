@@ -29,6 +29,7 @@ List of things that need to be done:
  - [ ] Convert Ammunition DB
  - [ ] Convert Maps/Chests DB
  - [ ] Convert Enemies DB
+ - [ ] Create the APP (Material UI, React, React Router, Redux)
 
 *Note*: The DB Conversion needs to be in JSON. 
 
