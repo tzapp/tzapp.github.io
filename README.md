@@ -14,22 +14,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Tasks
 
-List of things that need to be done:
-
- - [x] Create the base APP (react, PWA)
- - [x] Convert Bazzar DB
- - [x] Convert Items DB
- - [ ] Convert Magics DB
- - [ ] Convert Technicks DB
- - [ ] Convert Weapons DB
- - [ ] Convert Shields DB
- - [ ] Convert Head Equipment DB
- - [ ] Convert Body Equipment DB
- - [ ] Convert Accessories DB
- - [ ] Convert Ammunition DB
- - [ ] Convert Maps/Chests DB
- - [ ] Convert Enemies DB
- - [ ] Create the APP (Material UI, React, React Router, Redux)
+The list of things that need to be done can be found [Here](https://github.com/tzapp/tzapp.github.io/issues/1)
 
 *Note*: The DB Conversion needs to be in JSON. 
-
