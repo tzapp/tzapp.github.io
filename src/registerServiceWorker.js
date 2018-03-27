@@ -65,10 +65,14 @@ function registerValidSW(swUrl) {
   navigator.serviceWorker
     .register(swUrl)
     .then(registration => {
+      console.log("Registered", registration);
       registration.onupdatefound = () => {
+        console.log("Update Found");
         const installingWorker = registration.installing;
         installingWorker.onstatechange = () => {
+          console.log("State change");
           if (installingWorker.state === "installed") {
+            console.log("State Installed");
             if (navigator.serviceWorker.controller) {
               // At this point, the old content will have been purged and
               // the fresh content will have been added to the cache.
