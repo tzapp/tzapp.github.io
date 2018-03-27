@@ -8,8 +8,6 @@
 // To learn more about the benefits of this model, read https://goo.gl/KwvDNy.
 // This link also includes instructions on opting out of this behavior.
 
-console.log('loading service worker');
-
 const isLocalhost = Boolean(
   window.location.hostname === "localhost" ||
     // [::1] is the IPv6 localhost address.
@@ -20,8 +18,12 @@ const isLocalhost = Boolean(
     )
 );
 
+console.log("loading service worker. Localhost:", isLocalhost);
+
 export default function register() {
+  console.log("Call Register");
   if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
+    console.log("pass 1");
     // The URL constructor is available in all browsers that support SW.
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location);
     if (publicUrl.origin !== window.location.origin) {
@@ -30,11 +32,14 @@ export default function register() {
       // serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374
       return;
     }
+    console.log("Pass 2");
 
     window.addEventListener("load", () => {
+      console.log("Pass 3");
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
       if (isLocalhost) {
+        console.log("Pass 4");
         // This is running on localhost. Lets check if a service worker still exists or not.
         checkValidServiceWorker(swUrl);
 
@@ -48,6 +53,7 @@ export default function register() {
         });
       } else {
         // Is not local host. Just register service worker
+        console.log("Pass 5");
         registerValidSW(swUrl);
       }
     });
@@ -55,6 +61,7 @@ export default function register() {
 }
 
 function registerValidSW(swUrl) {
+  console.log("Call registerValidSW");
   navigator.serviceWorker
     .register(swUrl)
     .then(registration => {
