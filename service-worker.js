@@ -31,4 +31,3 @@ self.addEventListener('activate', function(e) {
 });
 
 self.addEventListener('fetch', function(e) {e.respondWith(fetch(e.request));});
-
