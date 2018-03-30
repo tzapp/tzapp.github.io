@@ -1,0 +1,333 @@
+[
+    {
+        "name": "Potion",
+        "buy": 60,
+        "sell": 30,
+        "effect": "Restores 120 HP to one target.\n\nLearning Potion Lore 1 ups recovery by 20%.\n\nLearning Potion Lore 2 ups recovery by 30%.\n\nLearning Potion Lore 3 ups recovery by 40%.\n\nWearing Pheasant Netsuke ups recovery by 50%.\n\nWearing Nihopalaoa reverses healing effects.\n\n"
+    },
+    {
+        "name": "Hi-Potion",
+        "buy": 180,
+        "sell": 90,
+        "effect": "Restores 450 HP to one target.\n\nLearning Potion Lore 1 ups recovery by 20%.\n\nLearning Potion Lore 2 ups recovery by 30%.\n\nLearning Potion Lore 3 ups recovery by 40%.\n\nWearing Pheasant Netsuke ups recovery by 50%.\n\nWearing Nihopalaoa reverses healing effects.\n\n"
+    },
+    {
+        "name": "X-Potion",
+        "buy": 520,
+        "sell": 260,
+        "effect": "Restores 1500 HP to one target.\n\nLearning Potion Lore 1 ups recovery by 20%.\n\nLearning Potion Lore 2 ups recovery by 30%.\n\nLearning Potion Lore 3 ups recovery by 40%.\n\nWearing Pheasant Netsuke ups recovery by 50%.\n\nWearing Nihopalaoa reverses healing effects.\n\n"
+    },
+    {
+        "name": "Ether",
+        "buy": 222,
+        "sell": 111,
+        "effect": "Restores 50 MP to one target.\n\nLearning Ether Lore 1 ups recovery by 10%.\n\nLearning Ether Lore 2 ups recovery by 15%.\n\nLearning Ether Lore 3 ups recovery by 30%.\n\nWearing Pheasant Netsuke ups recovery by 50%.\n\nWearing Nihopalaoa reverses healing effects.\n\n"
+    },
+    {
+        "name": "Hi-Ether",
+        "buy": 1110,
+        "sell": 555,
+        "effect": "Restores 200 MP to one target.\n\nLearning Ether Lore 1 ups recovery by 10%.\n\nLearning Ether Lore 2 ups recovery by 15%.\n\nLearning Ether Lore 3 ups recovery by 30%.\n\nWearing Pheasant Netsuke ups recovery by 50%.\n\nWearing Nihopalaoa reverses healing effects.\n\n"
+    },
+    {
+        "name": "Elixir",
+        "buy": false,
+        "sell": 777,
+        "effect": "Completely recovers all HP and all MP of one target.\n\nWearing Nihopalaoa will reduce HP and MP to 1, but it doesn't work on enemies with Safety passive ability.\n\n"
+    },
+    {
+        "name": "Megalixir",
+        "buy": false,
+        "sell": 7777,
+        "effect": "Completely recovers all HP and all MP of all targets in range.\n\nWearing Nihopalaoa will reduce HP and MP to 1, but it doesn't work on enemies with Safety passive ability.",
+        "range": 10
+    },
+    {
+        "name": "Remedy",
+        "buy": 400,
+        "sell": 200,
+        "effect": "Removes Slow, Silence, Blind and Poison from one target.\n\nLearn Remedy Lore 1 to remove Sleep, Disable, Immobilize and Sap.\n\nLearn Remedy Lore 2 to remove Petrify, Confuse and Oil.\n\nLearn Remedy Lore 3 to remove Stop, Doom and Disease.\n\nWearing Nihopalaoa will instead inflict all of those statuses - you need to have all Lore licenses learned to inflict all statuses.\n\nRemedy doesn't cure X-Zone, KO, Stone, Reverse and Critical HP statuses.\n\n"
+    },
+    {
+        "name": "Phoenix Down",
+        "buy": 200,
+        "sell": 100,
+        "effect": "Revives one KOed ally with 20% MAX HP.\n\nInflicts KO on undead foe (some have Safety passive ability, so KO will not work on these).\n\nLearn one Phoenix Lore to revive KOed ally with 30% HP.\n\nLearn two Phoenix Lores to revive KOed ally with 40% HP.\n\nLearn three Phoenix Lores to revive KOed ally with 50% HP.\n\nWearing Nihopalaoa will KO the target, but it won't work on undead foes and foes with Safety passive ability.\n\nWearing Pheasant Netsuke doubles potency of Phoenix Down.\n\n"
+    },
+    {
+        "name": "Gold Needle",
+        "buy": 80,
+        "sell": 40,
+        "effect": "Removes Stone from one ally.\n\nRemoves Petrify from one target.\n\nWearing Nihopalaoa will inflict Petrify.\n\n"
+    },
+    {
+        "name": "Echo Herbs",
+        "buy": 50,
+        "sell": 25,
+        "effect": "Removes Silence from one target.\n\nWearing Nihopalaoa will inflict Silence.\n\n"
+    },
+    {
+        "name": "Antidote",
+        "buy": 50,
+        "sell": 25,
+        "effect": "Removes Poison from one target.\n\nWearing Nihopalaoa will inflict Poison.\n\n"
+    },
+    {
+        "name": "Eye Drops",
+        "buy": 50,
+        "sell": 25,
+        "effect": "Removes Blind from one target.\n\nWearing Nihopalaoa will inflict Blind.\n\n"
+    },
+    {
+        "name": "Alarm Clock",
+        "buy": 50,
+        "sell": 25,
+        "effect": "Removes Sleep from one target.\n\nWearing Nihopalaoa will inflict Sleep.\n\n"
+    },
+    {
+        "name": "Handkerchief",
+        "buy": 50,
+        "sell": 25,
+        "effect": "Removes Oil from one target.\n\nWearing Nihopalaoa will inflict Oil.\n\n"
+    },
+    {
+        "name": "Chronos Tear",
+        "buy": 60,
+        "sell": 30,
+        "effect": "Removes Slow and/or Stop from one target.\n\nWearing Nihopalaoa will inflict Slow and Stop.\n\n"
+    },
+    {
+        "name": "Smelling Salts",
+        "buy": 50,
+        "sell": 25,
+        "effect": "Removes Confuse from one target.\n\nWearing Nihopalaoa will inflict Confuse.\n\n"
+    },
+    {
+        "name": "C9H8O4",
+        "buy": 700,
+        "sell": 350,
+        "effect": "Removes Disease from one target.\n\nWearing Nihopalaoa will inflict Disease.",
+        "note": "This item has replaced Vaccine."
+    },
+    {
+        "name": "Bacchus' Wine",
+        "buy": 120,
+        "sell": 60,
+        "effect": "Adds Berserk on one target.\n\nWearing Nihopalaoa will remove Berserk from one target.\n\n"
+    },
+    {
+        "name": "Shitamachi no",
+        "buy": false,
+        "sell": 5,
+        "effect": "Karubadosu     EFF One target gains Bravery.\n\nWearing Nihopalaoa will remove Bravery from one target.\n\n"
+    },
+    {
+        "name": "Soleil Fang",
+        "buy": 200,
+        "sell": 100,
+        "effect": "Inflicts fractional fire mgd to all targets in range.\n\nDamage dealt equals 25% of target's MAX HP.\n\nBase chance for hitting is 50%.\n\nStriking at target's fire weakness ups damage by 50%.\n\nWeapon that powers up fire element ups damage by 50%.\n\nWearing Pheasant Netsuke ups the damage by 50%.",
+        "range": 6,
+        "note": "This item has replaced Red Fang."
+    },
+    {
+        "name": "Freezing Fang",
+        "buy": 200,
+        "sell": 100,
+        "effect": "Inflicts fractional ice mgd to all targets in range.\n\nDamage dealt equals 25% of target's MAX HP.\n\nBase chance for hitting is 50%.\n\nStriking at target's ice weakness ups damage by 50%.\n\nWeapon that powers up ice element ups damage by 50%.\n\nWearing Pheasant Netsuke ups the damage by 50%.",
+        "range": 6,
+        "note": "This item has replaced Blue Fang."
+    },
+    {
+        "name": "Thunder Fang",
+        "buy": 200,
+        "sell": 100,
+        "effect": "Inflicts fractional thunder mgd to all targets in range.\n\nDamage dealt equals 25% of target's MAX HP.\n\nBase chance for hitting is 50%.\n\nStriking at target's thunder weakness ups damage by 50%.\n\nWeapon that powers up thunder element ups damage by 50%.\n\nWearing Pheasant Netsuke ups the damage by 50%.",
+        "range": 6,
+        "note": "This item has replaced White Fang."
+    },
+    {
+        "name": "Dark Mote",
+        "buy": 90,
+        "sell": 45,
+        "effect": "Deals dark mgd to all targets in range.\n\nPower of the Mote is 28, and ignores target's Reflect.",
+        "range": 8
+    },
+    {
+        "name": "Aero Mote",
+        "buy": 160,
+        "sell": 80,
+        "effect": "Deals wind mgd to all targets in range.\n\nPower of the Mote is 48, and ignores target's Reflect.",
+        "range": 8
+    },
+    {
+        "name": "Aqua Mote",
+        "buy": 230,
+        "sell": 115,
+        "effect": "Deals water mgd to all targets in range.\n\nPower of the Mote is 60, and ignores target's Reflect.",
+        "range": 8,
+        "note": "This item has replaced Water Mote."
+    },
+    {
+        "name": "Bio Mote",
+        "buy": 360,
+        "sell": 180,
+        "effect": "Adds Sap and deals non-elemental mgd to all targets in range.\n\nPower of the Mote is 88, and ignores target's Reflect.",
+        "range": 8
+    },
+    {
+        "name": "Aeroga Mote",
+        "buy": 570,
+        "sell": 285,
+        "effect": "Deals wind mgd to all targets in range.\n\nPower of the Mote is 102, and ignores target's Reflect.",
+        "range": 8
+    },
+    {
+        "name": "Shock Mote",
+        "buy": 700,
+        "sell": 350,
+        "effect": "Deals non-elemental mgd to one target.\n\nPower of the Mote is 133, and ignores target's Reflect.\n\n"
+    },
+    {
+        "name": "Holy Mote",
+        "buy": 900,
+        "sell": 450,
+        "effect": "Deals holy mgd to one target.\n\nPower of the Mote is 145, and ignores target's Reflect.\n\n"
+    },
+    {
+        "name": "Scathe Mote",
+        "buy": 2300,
+        "sell": 1150,
+        "effect": "Deals non-elemental mgd to all targets in range.\n\nPower of the Mote is 191, and ignores target's Reflect.",
+        "range": 8
+    },
+    {
+        "name": "Balance Mote",
+        "buy": 180,
+        "sell": 90,
+        "effect": "Inflicts non-elemental mgd to all targets in range.\n\nDamage = (user's MAX HP - user's current HP) It ignores target's Reflect.",
+        "range": 8
+    },
+    {
+        "name": "Gravity Mote",
+        "buy": 200,
+        "sell": 100,
+        "effect": "Deals fractional mgd to all targets in range.\n\nDamage equals 25% of target's MAX HP.\n\nIt ignores target's Reflect.",
+        "range": 8
+    },
+    {
+        "name": "Warp Mote",
+        "buy": 120,
+        "sell": 60,
+        "effect": "Banishes all foes in range.\n\nDoesn't work on foes with Safety passive ability.",
+        "range": 8
+    },
+    {
+        "name": "Dispel Mote",
+        "buy": 240,
+        "sell": 120,
+        "effect": "Removes beneficial status effects from one target, and can remove Slow and Stop as well.\n\nIt ignores target's Reflect.\n\n"
+    },
+    {
+        "name": "Cura Mote",
+        "buy": 420,
+        "sell": 210,
+        "effect": "Recovers medium amount of HP to all targets in range.\n\nDamages undead.\n\nIt ignores target's Reflect.",
+        "range": 10
+    },
+    {
+        "name": "Bubble Mote",
+        "buy": 600,
+        "sell": 300,
+        "effect": "One target gains Bubble.\n\nIt ignores target's Reflect.\n\n"
+    },
+    {
+        "name": "Reverse Mote",
+        "buy": 500,
+        "sell": 250,
+        "effect": "Adds Reverse to one target.\n\nIt ignores target's Reflect.\n\n"
+    },
+    {
+        "name": "Hastega Mote",
+        "buy": 1500,
+        "sell": 750,
+        "effect": "All targets in range gain Haste.\n\nIt ignores target's Reflect.",
+        "range": 10
+    },
+    {
+        "name": "Reflectga Mote",
+        "buy": 700,
+        "sell": 350,
+        "effect": "All targets in range gain Reflect.\n\nIt ignores target's Reflect.",
+        "range": 10
+    },
+    {
+        "name": "Vanishga Mote",
+        "buy": 400,
+        "sell": 200,
+        "effect": "All targets in range gain Vanish.\n\nIt ignores target's Reflect.",
+        "range": 10
+    },
+    {
+        "name": "Float Mote",
+        "buy": 550,
+        "sell": 275,
+        "effect": "All allies in range gain Float.\n\nIt ignores target's Reflect.",
+        "range": 10
+    },
+    {
+        "name": "Eksir Berries",
+        "buy": false,
+        "sell": 5,
+        "effect": "Deals dark mgd to one target.\n\nPower of the Berries is 30.\n\n"
+    },
+    {
+        "name": "Barutoro no Tane",
+        "buy": false,
+        "sell": 1,
+        "effect": "One target gains Protect, Shell, Haste, Bravery, Faith, Invisible, Regen, Float, Bubble, and Libra statuses.\n\nWearing Nihopalaoa removes all of the above statuses from one target.\n\n"
+    },
+    {
+        "name": "Dark Matter",
+        "buy": 2,
+        "sell": 1,
+        "effect": "Deals physical damage to all targets in range.\n\nMax damage = 60000 Damage of Dark Matter increases with each use of Knot of Rust (or Devour Soul esper tech): <DMG =SUM(Knot of Rust DMG) / 3 +SUM(Devour Soul DMG) / 3> Once Dark Matter is used, its damage resets to zero (0).",
+        "range": 20
+    },
+    {
+        "name": "Dark Energy",
+        "buy": false,
+        "sell": 1,
+        "effect": "Deals 50000 physical damage to all targets in range.\n\nAn extremely powerful item, but incredibly hard to obtain.",
+        "range": 100
+    },
+    {
+        "name": "Meteorite (A)",
+        "buy": false,
+        "sell": 10,
+        "effect": "Adds Sap to one target.\n\nWearing Nihopalaoa will remove Sap from one target.\n\n"
+    },
+    {
+        "name": "Meteorite (B)",
+        "buy": false,
+        "sell": 1000,
+        "effect": "Adds Disease to one target.\n\nWearing Nihopalaoa will remove Disease from one target.\n\n"
+    },
+    {
+        "name": "Meteorite (C)",
+        "buy": false,
+        "sell": 10000,
+        "effect": "Deals physical dagame to one target.\n\nDamage range equals [0 ~ <user's MAX HP - 1>] = dmg.\n\n"
+    },
+    {
+        "name": "Meteorite (D)",
+        "buy": false,
+        "sell": 30000,
+        "effect": "Deals physical damage to one target.\n\nIt has 50% chance to deal 30000 dmg, and 50% chance to deal [0 ~ 9999] damage.\n\n"
+    },
+    {
+        "name": "Knot of Rust",
+        "buy": 20,
+        "sell": 10,
+        "effect": "Deals physical damage to one target.\n\nMax damage = 9999 Damage dealt is partially affected by chr's maximum HP value.\n\nKnot of Rust deals damage by this formula: <DMG = MAX HP / RND(1~10)> Increase the damage done by Knot of Rust by being under Bubble status.\n\n"
+    }
+]
