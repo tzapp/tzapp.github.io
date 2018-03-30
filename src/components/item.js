@@ -4,8 +4,6 @@ import itemsData from '../database/items.json';
 import Card, { CardContent } from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
 
-
-
 export default class Item extends Component {
     render() {
         const { name, buy, sell, effect } = itemsData[this.props.id]
