@@ -8,9 +8,6 @@ import SwipeableDrawer from 'material-ui/SwipeableDrawer';
 import List, { ListItem, ListItemText } from 'material-ui/List';
 import { Link } from 'react-router-dom'
 
-
-
-
 class Header extends Component {
     constructor(props) {
         super(props);
