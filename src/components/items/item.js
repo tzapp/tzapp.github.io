@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Markdown from 'react-markdown'
-import itemsData from '../database/items.json';
+import itemsData from '../../database/items.json';
 import Card, { CardContent } from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
 

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Fragment, Component } from 'react';
 import { withStyles } from 'material-ui/styles';
 import List, { ListItem, ListItemText } from 'material-ui/List';
 import { FilterList as FilterIcon, Close as CloseIcon, Remove as RemoveIcon } from 'material-ui-icons';
 import Button from 'material-ui/Button';
-import itemsData from '../database/items.json';
+import itemsData from '../../database/items.json';
 import { Link } from 'react-router-dom'
 import Drawer from 'material-ui/Drawer';
 import TextField from 'material-ui/TextField';
@@ -11,6 +11,7 @@ import { MenuItem } from 'material-ui/Menu';
 import Tooltip from 'material-ui/Tooltip';
 import Item from './item'
 import { Route } from 'react-router-dom'
+import Header from '../header'
 
 const styles = theme => ({
     fab: {
@@ -36,45 +37,14 @@ class ItemList extends Component {
         }
     }
 
-    toggleFilter = () => this.setState({ openFilter: !this.state.openFilter })
-
-    clearFilter = () => this.setState({ order: '' })
-
-    static nameSort({ name: a }, { name: b }) {
-        if (a < b) return -1;
-        if (a > b) return 1;
-        return 0;
-    }
-    static buySort = ({ buy: a }, { buy: b }) => (a || 0) - (b || 0);
-    static sellSort = ({ buy: a }, { buy: b }) => (a || 0) - (b || 0);
-
-    getItems() {
-        const order = this.state.order.split('|');
-        const items = [...itemsData];
-        switch (order[0]) {
-            case 'name':
-                items.sort(ItemList.nameSort);
-                break;
-            case 'buy':
-                items.sort(ItemList.buySort);
-                break;
-            case 'sell':
-                items.sort(ItemList.sellSort);
-                break;
-            default: break;
-        }
-        if (order[1] === 'dsc')
-            items.reverse()
-        return items
-
-    }
 
     render() {
         const { classes } = this.props;
         const { openFilter, order } = this.state;
         const itemsData = this.getItems();
         return (
-            <div>
+            <Fragment>
+                <Header title="Items" backButton />
                 <List component="nav">
                     {itemsData.map((item, id) => (
                         <ListItem button component={Link} to={`items/${id}`} key={item.name}>
@@ -128,9 +98,43 @@ class ItemList extends Component {
                     </Drawer>
                 )} />
 
-            </div>
+            </Fragment>
         )
     }
+
+    toggleFilter = () => this.setState({ openFilter: !this.state.openFilter })
+
+    clearFilter = () => this.setState({ order: '' })
+
+    static nameSort({ name: a }, { name: b }) {
+        if (a < b) return -1;
+        if (a > b) return 1;
+        return 0;
+    }
+    static buySort = ({ buy: a }, { buy: b }) => (a || 0) - (b || 0);
+    static sellSort = ({ buy: a }, { buy: b }) => (a || 0) - (b || 0);
+
+    getItems() {
+        const order = this.state.order.split('|');
+        const items = [...itemsData];
+        switch (order[0]) {
+            case 'name':
+                items.sort(ItemList.nameSort);
+                break;
+            case 'buy':
+                items.sort(ItemList.buySort);
+                break;
+            case 'sell':
+                items.sort(ItemList.sellSort);
+                break;
+            default: break;
+        }
+        if (order[1] === 'dsc')
+            items.reverse()
+        return items
+
+    }
+
 }
 
 export default withStyles(styles, { withTheme: true })(ItemList);   
