@@ -1,36 +1,78 @@
 import React, { Component } from 'react'
 import Markdown from 'react-markdown'
 import itemsData from '../../database/items.json';
-import Card, { CardContent } from 'material-ui/Card';
-import Typography from 'material-ui/Typography';
+import { CardContent } from 'material-ui/Card';
+import { AppBar, Toolbar, Drawer, Typography, IconButton } from 'material-ui'
+import { ArrowBack as ArrowBackIcon } from 'material-ui-icons'
+
+const animationTime = 195;
 
 export default class Item extends Component {
+
+    constructor(props) {
+        super(props);
+
+
+        this.state = {
+            id: props.id
+        }
+    }
+
+    componentWillReceiveProps({ id, onClose }) {
+        this.setState({ onClose, id: id !== null ? id : this.state.id });
+        if (id !== null) {
+            this.animationTimeout && clearTimeout(this.animationTimeout);
+            this.animationTimeout = setTimeout(() => this.setState({ id }), animationTime)
+        }
+    }
     render() {
-        const { name, buy, sell, effect } = itemsData[this.props.id]
+        const item = itemsData[this.state.id];
         return (
-            <article>
-                <Card style={{ margin: 10 }}>
-                    <CardContent>
-                        <header>
-                            <Typography color="textSecondary">Item</Typography>
-                            <Typography variant="headline" component="h2">
-                                {name}
+            <Drawer
+                anchor="right"
+                transitionDuration={animationTime}
+                open={this.props.id !== null}
+                onClose={this.props.onClose}
+            >
+                {item &&
+                    <article style={{ width: 500, maxWidth: '100vw' }}>
+                        <AppBar position="static" color="default">
+                            <Toolbar>
+                                <IconButton color="inherit" aria-label="Back" onClick={this.props.onClose} style={{ marginLeft: -12, marginRight: 20 }}>
+                                    <ArrowBackIcon />
+                                </IconButton>
+                                <Typography variant="title" color="inherit">
+                                    {item.name}
+                                </Typography>
+                            </Toolbar>
+                        </AppBar>
+
+                        <CardContent>
+                            <Typography component="div" gutterBottom>
+                                <Markdown source={item.effect} />
                             </Typography>
-                        </header>
 
-                        <Typography component="div">
-                            <Markdown source={effect} />
-                        </Typography>
+                            {item.range &&
+                                <Typography>
+                                    <b>Range:</b> {item.range}
+                                </Typography>
+                            }
+                            <Typography>
+                                <b>Buy:</b> {item.buy || '-'}
+                            </Typography>
+                            <Typography gutterBottom>
+                                <b>Sell:</b> {item.sell}
+                            </Typography>
 
-                        <Typography>
-                            <b>Buy:</b> {buy || '-'}
-                        </Typography>
-                        <Typography>
-                            <b>Sell:</b> {sell}
-                        </Typography>
-                    </CardContent>
-                </Card>
-            </article>
+                            {item.note &&
+                                <Typography variant="caption">
+                                    <b>Note:</b> {item.note}
+                                </Typography>
+                            }
+                        </CardContent>
+                    </article>
+                }
+            </Drawer>
         )
     }
 }

@@ -89,13 +89,7 @@ class ItemList extends Component {
                     </form>
                 </Drawer>
                 <Route path="/items/:id" children={(({ match }) =>
-                    <Drawer
-                        anchor="right"
-                        open={Boolean(match)}
-                        onClose={() => window.history.back()}
-                    >
-                        {match && <Item id={Number(match.params.id)} />}
-                    </Drawer>
+                    <Item id={match && Number(match.params.id)} onClose={() => window.history.back()} />
                 )} />
 
             </Fragment>
