@@ -44,7 +44,7 @@ class Header extends Component {
 
     render() {
 
-        const { classes, children, title = 'The Zodiac APP (v0.2.0)', backButton = false, rightAction } = this.props
+        const { classes, children, title = 'The Zodiac APP', backButton = false, rightAction } = this.props
 
         const Icon = backButton ? ArrowBackIcon : MenuIcon;
         return (
