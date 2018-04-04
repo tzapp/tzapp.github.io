@@ -30,7 +30,12 @@ export default class AppServiceWorker {
             )
         );
 
-        console.log("Instance service worker. Localhost:", this.isLocalhost);
+        this.installPromise = new Promise(resolve => this.installPromiseResolver = resolve)
+        this.updatePromise = new Promise(resolve => this.updatePromiseResolver = resolve)
+
+        this.onUpdateFound(() => alert("New content is available; please refresh."))
+        this.onInstalled(() => console.log("Content is cached for offline use."))
+
     }
     /**
      * Register the service worker
@@ -77,7 +82,7 @@ export default class AppServiceWorker {
         navigator.serviceWorker
             .register(swUrl)
             .then(registration => {
-                
+
                 registration.onupdatefound = () => {
                     const installingWorker = registration.installing;
                     installingWorker.onstatechange = () => {
@@ -87,13 +92,12 @@ export default class AppServiceWorker {
                                 // the fresh content will have been added to the cache.
                                 // It's the perfect time to display a "New content is
                                 // available; please refresh." message in your web app.
-                                console.log("New content is available; please refresh.");
-                                alert("A new version is available. Refresh to update.");
+                                this.updatePromiseResolver()
                             } else {
                                 // At this point, everything has been precached.
                                 // It's the perfect time to display a
                                 // "Content is cached for offline use." message.
-                                console.log("Content is cached for offline use.");
+                                this.installPromiseResolver()
                             }
                         }
                     };
@@ -137,5 +141,14 @@ export default class AppServiceWorker {
                 registration.unregister();
             });
         }
+    }
+
+    onInstalled(callback) {
+        this.installPromise.then(callback).catch(console.error)
+
+    }
+
+    onUpdateFound(callback) {
+        this.updatePromise.then(callback).catch(console.error)
     }
 }

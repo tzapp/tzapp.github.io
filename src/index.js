@@ -6,5 +6,5 @@ import './index.css';
 
 const appSW = new AppServiceWorker();
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App appServiceWorker={appSW} />, document.getElementById('root'));
 appSW.register();
