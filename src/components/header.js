@@ -43,7 +43,6 @@ class Header extends Component {
     goBack = () => window.history.back()
 
     render() {
-
         const { classes, children, title = 'The Zodiac APP', backButton = false, rightAction } = this.props
 
         const Icon = backButton ? ArrowBackIcon : MenuIcon;
