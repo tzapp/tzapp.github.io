@@ -33,7 +33,7 @@ export default class AppServiceWorker {
         this.installPromise = new Promise(resolve => this.installPromiseResolver = resolve)
         this.updatePromise = new Promise(resolve => this.updatePromiseResolver = resolve)
 
-        this.onUpdateFound(() => alert("New content is available; please refresh."))
+        this.onUpdateFound(() => console.log("New content is available; please refresh."))
         this.onInstalled(() => console.log("Content is cached for offline use."))
 
     }
