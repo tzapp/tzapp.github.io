@@ -316,13 +316,13 @@
         "name": "Meteorite (C)",
         "buy": false,
         "sell": 10000,
-        "effect": "Deals physical dagame to one target.\n\nDamage range equals [0 ~ <user's MAX HP - 1>] = dmg.\n\n"
+        "effect": "Deals physical dagame to one target.\n\nDamage range equals (0 ~ <user's MAX HP - 1>) = dmg.\n\n"
     },
     {
         "name": "Meteorite (D)",
         "buy": false,
         "sell": 30000,
-        "effect": "Deals physical damage to one target.\n\nIt has 50% chance to deal 30000 dmg, and 50% chance to deal [0 ~ 9999] damage.\n\n"
+        "effect": "Deals physical damage to one target.\n\nIt has 50% chance to deal 30000 dmg, and 50% chance to deal (0 ~ 9999) damage.\n\n"
     },
     {
         "name": "Knot of Rust",

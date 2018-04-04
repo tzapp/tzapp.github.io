@@ -1,14 +1,9 @@
 import React, { Fragment, Component } from 'react';
-import { withStyles } from 'material-ui/styles';
-import List, { ListItem, ListItemText } from 'material-ui/List';
-import { FilterList as FilterIcon, Close as CloseIcon, Remove as RemoveIcon } from 'material-ui-icons';
-import Button from 'material-ui/Button';
+import { AppBar, Toolbar, Tooltip, TextField, Drawer, Button, IconButton, List, ListItem, ListItemText, withStyles, Typography, CardContent } from 'material-ui'
+import { FilterList as FilterIcon, Close as CloseIcon, Remove as RemoveIcon, ArrowBack as ArrowBackIcon } from 'material-ui-icons';
 import itemsData from '../../database/items.json';
 import { Link } from 'react-router-dom'
-import Drawer from 'material-ui/Drawer';
-import TextField from 'material-ui/TextField';
 import { MenuItem } from 'material-ui/Menu';
-import Tooltip from 'material-ui/Tooltip';
 import Item from './item'
 import { Route } from 'react-router-dom'
 import Header from '../header'
@@ -18,13 +13,13 @@ const styles = theme => ({
         position: 'fixed',
         bottom: theme.spacing.unit * 2,
         right: theme.spacing.unit * 2,
-        zIndex: 10000
+        // zIndex: 10000
     },
     fabSmall: {
         position: 'fixed',
         bottom: theme.spacing.unit * 4 + 56,
         right: theme.spacing.unit * 2 + 8,
-        zIndex: 10000
+        // zIndex: 10000
     }
 });
 
@@ -46,8 +41,8 @@ class ItemList extends Component {
             <Fragment>
                 <Header title="Items" backButton />
                 <List component="nav">
-                    {itemsData.map((item, id) => (
-                        <ListItem button component={Link} to={`items/${id}`} key={item.name}>
+                    {itemsData.map(item => (
+                        <ListItem button component={Link} to={`items/${item.id}`} key={item.name}>
                             <ListItemText primary={item.name} secondary={<span><b>B:</b>{item.buy || '-'} / <b>S:</b>{item.sell}</span>} />
                         </ListItem>
                     ))}
@@ -70,22 +65,34 @@ class ItemList extends Component {
                     open={openFilter}
                     onClose={this.toggleFilter}
                 >
-                    <form style={{ width: 250, padding: 20 }}>
-                        <TextField
-                            select
-                            label="Order"
-                            fullWidth
-                            value={this.state.order}
-                            onChange={e => this.setState({ order: e.target.value }) || this.toggleFilter()}
-                        >
-                            <MenuItem value="">Default</MenuItem>
-                            <MenuItem value="name">Name (A-Z)</MenuItem>
-                            <MenuItem value="name|dsc">Name (Z-A)</MenuItem>
-                            <MenuItem value="buy">Lowest Buy Price</MenuItem>
-                            <MenuItem value="buy|dsc">Highest Buy Price</MenuItem>
-                            <MenuItem value="sell">Lowest Sell Price</MenuItem>
-                            <MenuItem value="sell|dsc">Highest Sell Price</MenuItem>
-                        </TextField>
+                    <form style={{ width: 400, maxWidth: '100vw' }}>
+                        <AppBar position="static" color="default">
+                            <Toolbar>
+                                <IconButton color="inherit" aria-label="Close" onClick={this.toggleFilter} style={{ marginLeft: -12, marginRight: 20 }}>
+                                    <ArrowBackIcon />
+                                </IconButton>
+                                <Typography variant="title" color="inherit">
+                                    Filter
+                                </Typography>
+                            </Toolbar>
+                        </AppBar>
+                        <CardContent>
+                            <TextField
+                                select
+                                label="Order"
+                                fullWidth
+                                value={this.state.order}
+                                onChange={e => this.setState({ order: e.target.value }) || this.toggleFilter()}
+                            >
+                                <MenuItem value="">Default</MenuItem>
+                                <MenuItem value="name">Name (A-Z)</MenuItem>
+                                <MenuItem value="name|dsc">Name (Z-A)</MenuItem>
+                                <MenuItem value="buy">Lowest Buy Price</MenuItem>
+                                <MenuItem value="buy|dsc">Highest Buy Price</MenuItem>
+                                <MenuItem value="sell">Lowest Sell Price</MenuItem>
+                                <MenuItem value="sell|dsc">Highest Sell Price</MenuItem>
+                            </TextField>
+                        </CardContent>
                     </form>
                 </Drawer>
                 <Route path="/items/:id" children={(({ match }) =>
@@ -110,7 +117,7 @@ class ItemList extends Component {
 
     getItems() {
         const order = this.state.order.split('|');
-        const items = [...itemsData];
+        const items = itemsData.map((item, id) => ({ ...item, id }));
         switch (order[0]) {
             case 'name':
                 items.sort(ItemList.nameSort);

@@ -8,6 +8,7 @@ import SwipeableDrawer from 'material-ui/SwipeableDrawer';
 import List, { ListItem, ListItemText, ListItemIcon } from 'material-ui/List';
 import { Link } from 'react-router-dom'
 import Divider from 'material-ui/Divider';
+import Share from './share'
 import {
     Menu as MenuIcon,
     ArrowBack as ArrowBackIcon,
@@ -23,7 +24,7 @@ const styles = {
     flex: {
         flex: 1,
     },
-    menuButton: {
+    menuButtonWrapper: {
         marginLeft: -12,
         marginRight: 20,
     },
@@ -50,8 +51,8 @@ class Header extends Component {
             <header className={classes.root}>
                 <AppBar>
                     <Toolbar>
-                        <div>
-                            <IconButton color="inherit" aria-label="Menu" onClick={backButton ? this.goBack : this.toggleMenu} className={classes.menuButton}>
+                        <div className={classes.menuButtonWrapper}>
+                            <IconButton color="inherit" aria-label="Menu" onClick={backButton ? this.goBack : this.toggleMenu}>
                                 <Icon />
                             </IconButton>
                         </div>
@@ -91,14 +92,20 @@ class Header extends Component {
                         </List>
                         <Divider />
                         <List>
-                            {navigator.share &&
-                                <ListItem button onClick={this.share}>
-                                    <ListItemIcon>
-                                        <ShareIcon />
-                                    </ListItemIcon>
-                                    <ListItemText primary="Share" />
-                                </ListItem>
-                            }
+                            <ListItem
+                                button
+                                component={Share}
+                                shareData={{
+                                    title: 'The Zodiac APP',
+                                    text: 'Final Fantasy XII TZA PWA',
+                                    url: window.location.origin,
+                                }}>
+                                <ListItemIcon>
+                                    <ShareIcon />
+                                </ListItemIcon>
+                                <ListItemText primary="Share" />
+                            </ListItem>
+
                             <ListItem button component="a" href="https://github.com/tzapp/tzapp.github.io" target="_blank">
                                 <ListItemIcon>
                                     <CodeIcon />
@@ -112,11 +119,6 @@ class Header extends Component {
         )
     }
 
-    share = () => navigator.share && navigator.share({
-        title: 'The Zodiac APP',
-        text: 'Final Fantasy XII TZA PWA',
-        url: window.location.origin,
-    })
 }
 
 export default withStyles(styles)(Header);

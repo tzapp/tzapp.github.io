@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 import Markdown from 'react-markdown'
 import itemsData from '../../database/items.json';
+import Share from '../share'
 import { CardContent } from 'material-ui/Card';
 import { AppBar, Toolbar, Drawer, Typography, IconButton } from 'material-ui'
-import { ArrowBack as ArrowBackIcon } from 'material-ui-icons'
+import {
+    ArrowBack as ArrowBackIcon,
+    Share as ShareIcon
+} from 'material-ui-icons'
 
 const animationTime = 195;
 
@@ -41,9 +45,18 @@ export default class Item extends Component {
                                 <IconButton color="inherit" aria-label="Back" onClick={this.props.onClose} style={{ marginLeft: -12, marginRight: 20 }}>
                                     <ArrowBackIcon />
                                 </IconButton>
-                                <Typography variant="title" color="inherit">
+                                <Typography variant="title" color="inherit" style={{ flex: 1 }}>
                                     {item.name}
                                 </Typography>
+                                <Share shareData={{
+                                    title: `${item.name} - The Zodiac APP`,
+                                    text: `${item.name} - The Zodiac APP`,
+                                    url: window.location.href,
+                                }}>
+                                    <IconButton color="inherit" aria-label="Share">
+                                        <ShareIcon />
+                                    </IconButton>
+                                </Share>
                             </Toolbar>
                         </AppBar>
 
