@@ -6,6 +6,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom'
 import FutureFeature from './components/future-feature'
 import { Home, ItemList } from './components'
 import { Button, Snackbar } from 'material-ui'
+import { BazaarList } from './components/bazaar'
 
 const theme = createMuiTheme({
     palette: {
@@ -38,8 +39,8 @@ class App extends Component {
                         <Switch>
                             <Route exact path="/" component={Home} />
                             <Route path="/items" component={ItemList} />
-
-                            <Route path="/bazaar" render={() => <FutureFeature title="Bazaar" />} />
+                            <Route path="/bazaar" component={BazaarList} />
+                            
                             <Route path="/hunts" render={() => <FutureFeature title="Hunts" />} />
                             <Route path="/bestiary" render={() => <FutureFeature title="Bestiary" />} />
                         </Switch>

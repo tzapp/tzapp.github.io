@@ -1,12 +1,18 @@
 import React, { Fragment, Component } from 'react';
-import { AppBar, Toolbar, Tooltip, TextField, Drawer, Button, IconButton, List, ListItem, ListItemText, withStyles, Typography, CardContent } from 'material-ui'
-import { FilterList as FilterIcon, Close as CloseIcon, Remove as RemoveIcon, ArrowBack as ArrowBackIcon } from 'material-ui-icons';
 import itemsData from '../../database/items.json';
 import { Link } from 'react-router-dom'
 import { MenuItem } from 'material-ui/Menu';
 import Item from './item'
 import { Route } from 'react-router-dom'
 import Header from '../header'
+import { AppBar, Toolbar, Tooltip, TextField, Drawer, Button, IconButton, List, ListItem, ListItemText, withStyles, Typography, CardContent, Avatar } from 'material-ui'
+import {
+    FilterList as FilterIcon,
+    Close as CloseIcon,
+    Remove as RemoveIcon,
+    ArrowBack as ArrowBackIcon
+} from 'material-ui-icons';
+
 
 const styles = theme => ({
     fab: {
@@ -43,7 +49,8 @@ class ItemList extends Component {
                 <List component="nav">
                     {itemsData.map(item => (
                         <ListItem button component={Link} to={`items/${item.id}`} key={item.name}>
-                            <ListItemText primary={item.name} secondary={<span><b>B:</b>{item.buy || '-'} / <b>S:</b>{item.sell}</span>} />
+                            <Avatar>{item.name[0]}</Avatar>
+                            <ListItemText primary={item.name} secondary={<Fragment><strong>B:</strong>{item.buy || '-'} / <strong>S:</strong>{item.sell}</Fragment>} />
                         </ListItem>
                     ))}
                 </List>

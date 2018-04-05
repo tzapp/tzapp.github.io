@@ -1018,6 +1018,7 @@
         ]
     },
     {
+        "id": "forgotten-grimoire-1",
         "name": "Forgotten Grimoire",
         "price": 18000,
         "repeatable": false,
@@ -1040,6 +1041,7 @@
         ]
     },
     {
+        "id": "forgotten-grimoire-2",
         "name": "Forgotten Grimoire",
         "price": 20000,
         "repeatable": false,
@@ -1058,6 +1060,7 @@
         ]
     },
     {
+        "id": "forgotten-grimoire-3",
         "name": "Forgotten Grimoire",
         "price": 22000,
         "repeatable": false,
@@ -1076,6 +1079,7 @@
         ]
     },
     {
+        "id": "forgotten-grimoire-4",
         "name": "Forgotten Grimoire",
         "price": 22000,
         "repeatable": false,
@@ -1094,6 +1098,7 @@
         ]
     },
     {
+        "id": "forgotten-grimoire-5",
         "name": "Forgotten Grimoire",
         "price": 21000,
         "repeatable": false,
@@ -1112,6 +1117,7 @@
         ]
     },
     {
+        "id": "forgotten-grimoire-6",
         "name": "Forgotten Grimoire",
         "price": 25000,
         "repeatable": false,
@@ -1130,6 +1136,7 @@
         ]
     },
     {
+        "id": "forgotten-grimoire-7",
         "name": "Forgotten Grimoire",
         "price": 19000,
         "repeatable": false,
@@ -1664,6 +1671,7 @@
         ]
     },
     {
+        "id": "marick-shard-1",
         "name": "Magick Shard",
         "price": 499,
         "repeatable": true,
@@ -1690,6 +1698,7 @@
         ]
     },
     {
+        "id": "marick-shard-2",
         "name": "Magick Shard",
         "price": 99,
         "repeatable": true,
