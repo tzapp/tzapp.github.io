@@ -1,0 +1,3170 @@
+[
+    {
+        "name": "Alluring Finery",
+        "price": 3180,
+        "repeatable": false,
+        "description": "Raiment and tiara of seductive beauty, lightly scented, as if with some sweet flower.",
+        "need": [
+            {
+                "name": "Fine Wool",
+                "amt": 3
+            },
+            {
+                "name": "Ice Magicite",
+                "amt": 4
+            },
+            {
+                "name": "Tyrant Hide",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Enchanter's Habit",
+                "amt": 1
+            },
+            {
+                "name": "Lamia's Tiara",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Antidote Set",
+        "price": 100,
+        "repeatable": false,
+        "description": "Take one of these and laugh in the face of poison! Contains three (3) antidotes.",
+        "need": [
+            {
+                "name": "Drab Wool",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Antidote",
+                "amt": 3
+            }
+        ]
+    },
+    {
+        "name": "Armor-piercing Shot",
+        "price": 8900,
+        "repeatable": false,
+        "description": "Contains one (1) Spica war gun, and one (1) pouch of shot, sometimes known as \"wind shot\", that gathers air behind it in a cone as it flies for an impact that can pierce rock.",
+        "need": [
+            {
+                "name": "Ichthon Scale",
+                "amt": 4
+            },
+            {
+                "name": "Silver Liquid",
+                "amt": 5
+            },
+            {
+                "name": "Wind Crystal",
+                "amt": 7
+            }
+        ],
+        "get": [
+            {
+                "name": "Spica",
+                "amt": 1
+            },
+            {
+                "name": "Windslicer Shot",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Arrows Alight",
+        "price": 2800,
+        "repeatable": false,
+        "description": "Contains one (1) quiver of arrows, each with an oil-soaked cloth wrapped about its point, and one (1) longbow.",
+        "need": [
+            {
+                "name": "Crooked Fang",
+                "amt": 2
+            },
+            {
+                "name": "Fire Stone",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Fiery Arrows",
+                "amt": 1
+            },
+            {
+                "name": "Longbow",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Arrows of the Moon Goddess",
+        "price": 1280,
+        "repeatable": false,
+        "description": "Filled with the grace of the moon goddess, the shaft emits a numinous glow.",
+        "need": [
+            {
+                "name": "Dorsal Fin",
+                "amt": 2
+            },
+            {
+                "name": "Gemini Gem",
+                "amt": 3
+            },
+            {
+                "name": "Great Serpentskin",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Artemis Arrows",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Assorted Leathers",
+        "price": 300,
+        "repeatable": false,
+        "description": "Matching pair of leather goods, guaranteeing comfort both in the bazaar and on the battlefield.",
+        "need": [
+            {
+                "name": "Dark Stone",
+                "amt": 2
+            },
+            {
+                "name": "Tanned Hide",
+                "amt": 1
+            },
+            {
+                "name": "Wolf Pelt",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Leather Breastplate",
+                "amt": 1
+            },
+            {
+                "name": "Leather Headgear",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Attenuated Greatsword",
+        "price": 9200,
+        "repeatable": false,
+        "description": "Long and narrow, this greatsword is adorned with a crest marking its bearer as a knight.",
+        "need": [
+            {
+                "name": "Holy Crystal",
+                "amt": 10
+            },
+            {
+                "name": "Quality Stone",
+                "amt": 4
+            },
+            {
+                "name": "Sky Jewel",
+                "amt": 7
+            }
+        ],
+        "get": [
+            {
+                "name": "Save the Queen",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Back Harness",
+        "price": 600,
+        "repeatable": false,
+        "description": "When fighting on the floors of coliseums, gladiators were made to wear harnesses such as this to prevent their escape.",
+        "need": [
+            {
+                "name": "Throat Wolf Blood",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Battle Harness",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Befuddling Incendiaries",
+        "price": 3800,
+        "repeatable": false,
+        "description": "Contains one (1) incendiary device and one (1) pouch of bombs. Rumored to be used by the Archadian elite guard to sew chaos among enemy ranks; a tactic of brutal efficiency.",
+        "need": [
+            {
+                "name": "Bomb Shell",
+                "amt": 4
+            },
+            {
+                "name": "Book of Orgain-Cent",
+                "amt": 3
+            },
+            {
+                "name": "Fire Crystal",
+                "amt": 7
+            }
+        ],
+        "get": [
+            {
+                "name": "Caldera",
+                "amt": 1
+            },
+            {
+                "name": "Chaos Bombs",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Black Vestments",
+        "price": 12800,
+        "repeatable": false,
+        "description": "Protectives preferred by practitioners of the black magick arts.",
+        "need": [
+            {
+                "name": "Blood Wool",
+                "amt": 9
+            },
+            {
+                "name": "Dark Crystal",
+                "amt": 8
+            },
+            {
+                "name": "Prime Tanned Hide",
+                "amt": 7
+            }
+        ],
+        "get": [
+            {
+                "name": "Black Mask",
+                "amt": 1
+            },
+            {
+                "name": "Black Robes",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Blindflight Quarrels",
+        "price": 11220,
+        "repeatable": false,
+        "description": "These bolts are actually tightly rolled scrolls, a spell of dark magicks inscribed on the vellum. Quite valuable. With included crossbow, it makes for a great bargain.",
+        "need": [
+            {
+                "name": "Dark Crystal",
+                "amt": 3
+            },
+            {
+                "name": "Silver Liquid",
+                "amt": 3
+            },
+            {
+                "name": "Spiral Incisor",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Black Bolts",
+                "amt": 1
+            },
+            {
+                "name": "Hunting Crossbow",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Blush of Light",
+        "price": 1200,
+        "repeatable": false,
+        "description": "This small ornament glows softly when worn, emitting a feeble light.",
+        "need": [
+            {
+                "name": "Magick Lamp",
+                "amt": 1
+            },
+            {
+                "name": "Snowfly",
+                "amt": 1
+            },
+            {
+                "name": "Tomato Stalk",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Firefly",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Bow & Bodkin",
+        "price": 400,
+        "repeatable": false,
+        "description": "Contains one (1) shortbow, easily drawn, and one (1) quiver of finely honed arrows.",
+        "need": [
+            {
+                "name": "Bat Fang",
+                "amt": 1
+            },
+            {
+                "name": "Dark Stone",
+                "amt": 2
+            },
+            {
+                "name": "Rat Pelt",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Parallel Arrows",
+                "amt": 1
+            },
+            {
+                "name": "Shortbow",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Bow of the Moon Goddess",
+        "price": 9300,
+        "repeatable": false,
+        "description": "Filled with the grace of the moon goddess, the body emits a numinous glow.",
+        "need": [
+            {
+                "name": "Solid Horn",
+                "amt": 5
+            },
+            {
+                "name": "Moondust",
+                "amt": 2
+            },
+            {
+                "name": "Sylphi Halcyon",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Artemis Bow",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Brawler's Fetish",
+        "price": 3000,
+        "repeatable": false,
+        "description": "Decorative trinket conceived long ago by a pugilist seeking a means to harness his inner strength.",
+        "need": [
+            {
+                "name": "Gimble Stalk",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Amber Armlet",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Brilliant Shield",
+        "price": 7500,
+        "repeatable": false,
+        "description": "A triumph of function and form. Various metals make up the elaborate decoration adorning its face.",
+        "need": [
+            {
+                "name": "Ancient Turtle Shell",
+                "amt": 2
+            },
+            {
+                "name": "Ring Wyrm Liver",
+                "amt": 2
+            },
+            {
+                "name": "Undin Halcyon",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Venetian Shield",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Burning Blade",
+        "price": 2025,
+        "repeatable": false,
+        "description": "Fierce flames dance the length of this blade, searing the flesh of its mark even as it cuts. A mighty weapon.",
+        "need": [
+            {
+                "name": "Fire Stone",
+                "amt": 6
+            },
+            {
+                "name": "Lumber",
+                "amt": 2
+            },
+            {
+                "name": "Malboro Vine",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Flametongue",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Burning Fangs",
+        "price": 980,
+        "repeatable": false,
+        "description": "Fangs of a great beast, ever burning. Within each is said to dwell a fire elemental.",
+        "need": [
+            {
+                "name": "Pointed Horn",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Soleil Fang",
+                "amt": 5
+            }
+        ]
+    },
+    {
+        "name": "Burnished Protectives",
+        "price": 4850,
+        "repeatable": false,
+        "description": "Heavy pieces of armor polished to a mirror finish and suffused with strong magicks, affording additional protection beyond the physical.",
+        "need": [
+            {
+                "name": "Earth Stone",
+                "amt": 4
+            },
+            {
+                "name": "Quality Hide",
+                "amt": 2
+            },
+            {
+                "name": "Wyrm Carapace",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Burgonet",
+                "amt": 1
+            },
+            {
+                "name": "Ice Shield",
+                "amt": 1
+            },
+            {
+                "name": "Shielded Armor",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Chain-link Belt",
+        "price": 17820,
+        "repeatable": false,
+        "description": "Ornamental belt made by the stringing of chain links one to another. A badge of great strength among those who test their mettle on the field of battle.",
+        "need": [
+            {
+                "name": "Adamantite",
+                "amt": 1
+            },
+            {
+                "name": "Battlewyrm Carapace",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Bubble Belt",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Chronos Tear Pack",
+        "price": 333,
+        "repeatable": true,
+        "description": "Time waits for no man, why should you wait for time? Contains ten (10) chronos tears.",
+        "need": [
+            {
+                "name": "Eye of the Hawk",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Chronos Tear",
+                "amt": 10
+            }
+        ]
+    },
+    {
+        "name": "Comfy Headgear",
+        "price": 25000,
+        "repeatable": false,
+        "description": "You might be inclined to pussyfoot about in this magicked hood. Would saying it granted great speed be letting its secret out of the bag? Well? Curious?",
+        "need": [
+            {
+                "name": "Einherjarium",
+                "amt": 2
+            },
+            {
+                "name": "Virgo Gem",
+                "amt": 7
+            },
+            {
+                "name": "White Incense",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Cat-ear Hood",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Crimson Blade",
+        "price": 4444,
+        "repeatable": false,
+        "description": "The blade of this sword is said to drink the blood of foes, growing ever deeper in hue as it slakes its thirst. A dread blade.",
+        "need": [
+            {
+                "name": "Dark Crystal",
+                "amt": 15
+            },
+            {
+                "name": "Vampyr Fang",
+                "amt": 3
+            },
+            {
+                "name": "Solid Stone",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Blood Sword A",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Cursed Necklace",
+        "price": 28000,
+        "repeatable": false,
+        "description": "Heirloom of a royal line whose progeny have long since faded into obscurity. All others who don the necklace are said to meet with betrayal.",
+        "need": [
+            {
+                "name": "Blood-stained Necklace",
+                "amt": 3
+            },
+            {
+                "name": "Death's-Head",
+                "amt": 2
+            },
+            {
+                "name": "Leo Gem",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Nihopalaoa",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Darksteel Blade",
+        "price": 17800,
+        "repeatable": false,
+        "description": "A cruel blade forged for battle, its very shape a violence.",
+        "need": [
+            {
+                "name": "Chimera Head",
+                "amt": 2
+            },
+            {
+                "name": "Orihalcum",
+                "amt": 2
+            },
+            {
+                "name": "Taurus Gem",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Stoneblade",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Devastating Incendiaries",
+        "price": 12000,
+        "repeatable": false,
+        "description": "Incendiary device of destructive force beyond measure. A fell spirit is rumored to dwell deep within.",
+        "need": [
+            {
+                "name": "Aries Gem",
+                "amt": 3
+            },
+            {
+                "name": "Bomb Fragment",
+                "amt": 3
+            },
+            {
+                "name": "Frog Oil",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Castellanos",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Double-bladed Knife",
+        "price": 7500,
+        "repeatable": false,
+        "description": "Dagger with two blades that cross as they taper to a point.",
+        "need": [
+            {
+                "name": "Malboro Flower",
+                "amt": 7
+            },
+            {
+                "name": "Wind Crystal",
+                "amt": 9
+            },
+            {
+                "name": "Windslicer Pinion",
+                "amt": 5
+            }
+        ],
+        "get": [
+            {
+                "name": "Zwill Crossblade",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Dragon Crest",
+        "price": 65535,
+        "repeatable": false,
+        "description": "A replica of legendary blade said to have slain a fell wyrm that long ago preyed upon the eastern kingdoms. With a sword such as this, one might write new legends!",
+        "need": [
+            {
+                "name": "Godslayer's Badge",
+                "amt": 1
+            },
+            {
+                "name": "Omega Badge",
+                "amt": 1
+            },
+            {
+                "name": "Lu Shang's Badge",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Wyrmhero Blade",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Elegant Pole",
+        "price": 7980,
+        "repeatable": false,
+        "description": "A walking staff of the sort you might expect a dignitary or high-ranking official to carry. Excellent craftsmanship.",
+        "need": [
+            {
+                "name": "Blood-darkened Bone",
+                "amt": 8
+            },
+            {
+                "name": "Demon Feather",
+                "amt": 6
+            },
+            {
+                "name": "Wind Crystal",
+                "amt": 7
+            }
+        ],
+        "get": [
+            {
+                "name": "Ivory Pole",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Emboldening Arms",
+        "price": 7980,
+        "repeatable": false,
+        "description": "Used to perform certain sacred rites in the eastern kingdoms. The wearers of these garments are said to experience a great surge of strength.",
+        "need": [
+            {
+                "name": "Fire Crystal",
+                "amt": 3
+            },
+            {
+                "name": "Quality Pelt",
+                "amt": 6
+            },
+            {
+                "name": "Tanned Giantskin",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Chakra Band",
+                "amt": 1
+            },
+            {
+                "name": "Power Vest",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Engraved Spear",
+        "price": 9025,
+        "repeatable": false,
+        "description": "The spear head bears an ancient magicked seal, the words \"Consigned to the Flame\" etched therein. Only those of utmost proficiency with the spear may wield it.",
+        "need": [
+            {
+                "name": "Broken Spear",
+                "amt": 2
+            },
+            {
+                "name": "Ketu Board",
+                "amt": 2
+            },
+            {
+                "name": "Mystletainn",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Gungnir",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Esoteric Draught",
+        "price": 108000,
+        "repeatable": true,
+        "description": "Divine draught of appearing in tales of legend, said to mend all wounds great and small. Every adventurer should keep one close to hand.",
+        "need": [
+            {
+                "name": "High Arcana",
+                "amt": 2
+            },
+            {
+                "name": "Onion",
+                "amt": 3
+            },
+            {
+                "name": "Rat Tail",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Megalixir",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Exquisite Ring",
+        "price": 7800,
+        "repeatable": false,
+        "description": "A large opal is set at the center of this bejeweled ring.",
+        "need": [
+            {
+                "name": "Frogspawn",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Opal Ring",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Eye Drop Set",
+        "price": 100,
+        "repeatable": false,
+        "description": "Adventuring is hard on the eyes; treat them right, lest you aim suffer the consequences! Containing three (3) doses of eye drops, this set is sure to fit the bill.",
+        "need": [
+            {
+                "name": "Demon Eyeball",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Eyedrops",
+                "amt": 3
+            }
+        ]
+    },
+    {
+        "name": "Eye Openers",
+        "price": 1280,
+        "repeatable": false,
+        "description": "Trouble waking with just one alarm clock? Perhaps a set of five (5) will do the trick! Now with matching tufts of phoenix down, at a price that will alarm rival retailers!",
+        "need": [
+            {
+                "name": "Chocobo Feather",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Alarm Clock",
+                "amt": 5
+            },
+            {
+                "name": "Phoenix Down",
+                "amt": 5
+            }
+        ]
+    },
+    {
+        "name": "Feathered Boots",
+        "price": 300,
+        "repeatable": false,
+        "description": "Small wings adorn this pair of boots.",
+        "need": [
+            {
+                "name": "Arctic Wind",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Winged Boots",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Fire-bird's Whisper",
+        "price": 2222,
+        "repeatable": true,
+        "description": "Contains ten (10) tufts of phoenix down. A tried and trusted staple, at home in the haversack of any adventurer.",
+        "need": [
+            {
+                "name": "Jack-o'-Lantern",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Phoenix Down",
+                "amt": 10
+            }
+        ]
+    },
+    {
+        "name": "First-aid Kit",
+        "price": 450,
+        "repeatable": false,
+        "description": "Hope for the best, plan for the worst. Kit contains potions and tufts of phoenix down, at a price no bargain hunter dare pass by.",
+        "need": [
+            {
+                "name": "Large Feather",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Phoenix Down",
+                "amt": 2
+            },
+            {
+                "name": "Potion",
+                "amt": 2
+            }
+        ]
+    },
+    {
+        "name": "Flask of Oily Liquid",
+        "price": 4000,
+        "repeatable": true,
+        "description": "Sages are said to have taken draughts of this liquid to replenish lost arcane energies.",
+        "need": [
+            {
+                "name": "Caramel",
+                "amt": 3
+            },
+            {
+                "name": "Unpurified Ether",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Ether",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Flask of Viscous Liquid",
+        "price": 12000,
+        "repeatable": true,
+        "description": "High sages are said to have taken draughts of this liquid to replenish lost arcane energies.",
+        "need": [
+            {
+                "name": "Foul Liquid",
+                "amt": 2
+            },
+            {
+                "name": "Slime Oil",
+                "amt": 1
+            },
+            {
+                "name": "Unpurified Ether",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Hi-Ether",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Forbidding Shield",
+        "price": 7800,
+        "repeatable": false,
+        "description": "A shield fearsome to look upon. The mouth at its center is a portal to the unknown, a great maw that opens wide to drink in the Dark.",
+        "need": [
+            {
+                "name": "Aged Turtle Shell",
+                "amt": 2
+            },
+            {
+                "name": "Destrier Barding",
+                "amt": 8
+            },
+            {
+                "name": "Leamonde Halcyon",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Demon Shield",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Grimoire",
+        "price": 18000,
+        "repeatable": false,
+        "description": "Text dating from antiquity, prescribing tactics and guidance to those who would walk a given path.",
+        "need": [
+            {
+                "name": "Go to [Rabanastre / Muthru Bazaar] and talk to Gatsly after you",
+                "amt": 1
+            },
+            {
+                "name": "defeat Thextera mark.",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Hunter's Monograph",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Grimoire",
+        "price": 20000,
+        "repeatable": false,
+        "description": "Text dating from antiquity, prescribing tactics and guidance to those who would walk a given path.",
+        "need": [
+            {
+                "name": "Read any Notice Board 20+ times.",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Warmage's Monograph",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Grimoire",
+        "price": 22000,
+        "repeatable": false,
+        "description": "Text dating from antiquity, prescribing tactics and guidance to those who would walk a given path.",
+        "need": [
+            {
+                "name": "Read any Notice Board 40+ times.",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Dragoon's Monograph",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Grimoire",
+        "price": 22000,
+        "repeatable": false,
+        "description": "Text dating from antiquity, prescribing tactics and guidance to those who would walk a given path.",
+        "need": [
+            {
+                "name": "Talk to (any) armor shop owner 15+ times.",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Scholar's Monograph",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Grimoire",
+        "price": 21000,
+        "repeatable": false,
+        "description": "Text dating from antiquity, prescribing tactics and guidance to those who would walk a given path.",
+        "need": [
+            {
+                "name": "Talk to (any) magick shop owner 25+ times.",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Mage's Monograph",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Grimoire",
+        "price": 25000,
+        "repeatable": false,
+        "description": "Text dating from antiquity, prescribing tactics and guidance to those who would walk a given path.",
+        "need": [
+            {
+                "name": "Talk to (any) shop owner 100+ times.",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Sage's Monograph",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Grimoire",
+        "price": 19000,
+        "repeatable": false,
+        "description": "Text dating from antiquity, prescribing tactics and guidance to those who would walk a given path.",
+        "need": [
+            {
+                "name": "Talk to (any) weapon shop owner 30+ times.",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Knight's Monograph",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Forked Spear",
+        "price": 6450,
+        "repeatable": false,
+        "description": "An unusual three-pronged spear, much resembling a common fork.",
+        "need": [
+            {
+                "name": "Maggoty Flesh",
+                "amt": 5
+            },
+            {
+                "name": "Pointed Horn",
+                "amt": 4
+            },
+            {
+                "name": "Wind Magicite",
+                "amt": 6
+            }
+        ],
+        "get": [
+            {
+                "name": "Trident",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Gigas Gear",
+        "price": 17800,
+        "repeatable": false,
+        "description": "Not just for show, these pieces are, as any warrior worth his codpiece will attest, highly prized on the battlefield.",
+        "need": [
+            {
+                "name": "Dark Crystal",
+                "amt": 7
+            },
+            {
+                "name": "Prime Pelt",
+                "amt": 8
+            },
+            {
+                "name": "Prime Tanned Hide",
+                "amt": 7
+            }
+        ],
+        "get": [
+            {
+                "name": "Gigas Chestplate",
+                "amt": 1
+            },
+            {
+                "name": "Gigas Hat",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Gilt Phylactery",
+        "price": 3000,
+        "repeatable": false,
+        "description": "Made of gold, this amulet imparts a sense of both dignity and wisdom.",
+        "need": [
+            {
+                "name": "Tattered Garment",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Golden Amulet",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Gilt Shield",
+        "price": 250,
+        "repeatable": false,
+        "description": "Shield of wood, trimmed in gold leaf. A splendid choice for those new to the art of swordplay.",
+        "need": [
+            {
+                "name": "Fire Stone",
+                "amt": 3
+            },
+            {
+                "name": "Molting",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Buckler",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Golden Battle Axe",
+        "price": 10000,
+        "repeatable": false,
+        "description": "Exquisite battle axe that shines golden in the light. He who would wield it must be well skilled to accord such craftsmanship.",
+        "need": [
+            {
+                "name": "Broken Greataxe",
+                "amt": 2
+            },
+            {
+                "name": "Electrum",
+                "amt": 2
+            },
+            {
+                "name": "Mardu Halcyon",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Golden Axe",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Golden Garb",
+        "price": 3980,
+        "repeatable": false,
+        "description": "This three (3) piece set includes an ornate breast plate, shield, and helm, seemingly wrought of pure gold.",
+        "need": [
+            {
+                "name": "Dark Magicite",
+                "amt": 3
+            },
+            {
+                "name": "Iron Carapace",
+                "amt": 3
+            },
+            {
+                "name": "Tanned Hide",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Golden Armor",
+                "amt": 1
+            },
+            {
+                "name": "Golden Helm",
+                "amt": 1
+            },
+            {
+                "name": "Golden Shield",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Hi-Potion Pack",
+        "price": 1111,
+        "repeatable": true,
+        "description": "Contains ten (10) hi-potions. Neither hunter nor adventurer should ever go without!",
+        "need": [
+            {
+                "name": "Rainbow Egg",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Hi-Potion",
+                "amt": 10
+            }
+        ]
+    },
+    {
+        "name": "Hollow-shaft Arrows",
+        "price": 3980,
+        "repeatable": false,
+        "description": "Contains one (1) Loxley bow, and one (1) quiver of hollow-shaft arrows. The hollows of the arrows are fitted with sacs of poison.",
+        "need": [
+            {
+                "name": "Bat Fang",
+                "amt": 5
+            },
+            {
+                "name": "Water Magicite",
+                "amt": 3
+            },
+            {
+                "name": "Yellow Liquid",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Bamboo Arrows",
+                "amt": 1
+            },
+            {
+                "name": "Loxley Bow",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Huntsman's Crossbow",
+        "price": 3500,
+        "repeatable": false,
+        "description": "Contains one (1) recurve crossbow and one (1) quiver of needle-thin bolts. The light materials used in the weapon's construction make it a hunter's favorite.",
+        "need": [
+            {
+                "name": "Bundle of Needles",
+                "amt": 1
+            },
+            {
+                "name": "Festering Flesh",
+                "amt": 2
+            },
+            {
+                "name": "Ice Magicite",
+                "amt": 5
+            }
+        ],
+        "get": [
+            {
+                "name": "Stone Bolts",
+                "amt": 1
+            },
+            {
+                "name": "Recurve Crossbow",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Iron-forged Blade",
+        "price": 650,
+        "repeatable": false,
+        "description": "An iron blade of common, even clumsy, design, it is nonetheless well regarded by many a warrior for its uncommon durability.",
+        "need": [
+            {
+                "name": "Earth Stone",
+                "amt": 3
+            },
+            {
+                "name": "Foul Flesh",
+                "amt": 2
+            },
+            {
+                "name": "Iron Scraps",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Iron Sword",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Iron-forged Pole",
+        "price": 2115,
+        "repeatable": false,
+        "description": "Simple pole made of iron. Its end is stained with dried blood.",
+        "need": [
+            {
+                "name": "Demon Eyeball",
+                "amt": 3
+            },
+            {
+                "name": "Fire Magicite",
+                "amt": 4
+            },
+            {
+                "name": "Sturdy Bone",
+                "amt": 5
+            }
+        ],
+        "get": [
+            {
+                "name": "Iron Pole",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Jag-tooth Ninja Sword",
+        "price": 3800,
+        "repeatable": false,
+        "description": "With a serrated blade, this is a most unusual ninja sword. It is thought that this choice of design may have been made with the intent of further opening any wounds inflicted.",
+        "need": [
+            {
+                "name": "Dark Magicite",
+                "amt": 5
+            },
+            {
+                "name": "Festering Flesh",
+                "amt": 4
+            },
+            {
+                "name": "Giant Feather",
+                "amt": 5
+            }
+        ],
+        "get": [
+            {
+                "name": "Kagenui",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Jewel of Creation",
+        "price": 29997,
+        "repeatable": true,
+        "description": "An otherworldly light emanates from within this jewel. A profound sense of peace comes over all who look upon it.",
+        "need": [
+            {
+                "name": "High Arcana",
+                "amt": 1
+            },
+            {
+                "name": "Soul Powder",
+                "amt": 1
+            },
+            {
+                "name": "Wargod's Band",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Empyreal Soul",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Jewel of the Serpent",
+        "price": 19998,
+        "repeatable": true,
+        "description": "The surface of this gem writhes with a serptentine pattern. Within, untold magicks sleep.",
+        "need": [
+            {
+                "name": "High Arcana",
+                "amt": 1
+            },
+            {
+                "name": "Serpent Eye",
+                "amt": 2
+            },
+            {
+                "name": "Snake Skin",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Serpentarius",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Large Gloves",
+        "price": 2000,
+        "repeatable": false,
+        "description": "These large gloves narrow at the wrist, trapping heat inside.",
+        "need": [
+            {
+                "name": "Bent Staff",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Blazer Gloves",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Late-model Rifle",
+        "price": 8000,
+        "repeatable": false,
+        "description": "Late-model, long bore hunting rifle. Wide body, narrow muzzle.",
+        "need": [
+            {
+                "name": "Salamand Halcyon",
+                "amt": 1
+            },
+            {
+                "name": "Wyvern Wing",
+                "amt": 2
+            },
+            {
+                "name": "Yensa Fin",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Arcturus",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Life Crystal",
+        "price": 9999,
+        "repeatable": true,
+        "description": "A crystal, filled to overflowing with occult magicks. Sublime light radiates from within.",
+        "need": [
+            {
+                "name": "Arcana",
+                "amt": 10
+            },
+            {
+                "name": "Feystone",
+                "amt": 1
+            },
+            {
+                "name": "Soul of Thamasa",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "High Arcana",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Light & Sturdy Garb",
+        "price": 5800,
+        "repeatable": false,
+        "description": "Helm and armor fashioned after a chelonian shell. The pieces breathe well, making them ideal for wear in tropical climes.",
+        "need": [
+            {
+                "name": "Coeurl Pelt",
+                "amt": 6
+            },
+            {
+                "name": "Storm Magicite",
+                "amt": 5
+            },
+            {
+                "name": "Tanned Tyrant Hide",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Adamant Hat",
+                "amt": 1
+            },
+            {
+                "name": "Adamant Vest",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Light Spear",
+        "price": 310,
+        "repeatable": false,
+        "description": "Spear tipped with a flattened blade. Designed chiefly for civil, rather than martial, purposes, its armor piercing capabilities have been left somewhat wanting.",
+        "need": [
+            {
+                "name": "Foul Flesh",
+                "amt": 2
+            },
+            {
+                "name": "Horn",
+                "amt": 2
+            },
+            {
+                "name": "Wind Stone",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Javelin",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Magepower Helm",
+        "price": 7500,
+        "repeatable": false,
+        "description": "Heavy armor though it be, this helm is strongly magicked. A worthy choice for those knights who rely upon more than just the steel of their blades.",
+        "need": [
+            {
+                "name": "Charger Barding",
+                "amt": 5
+            },
+            {
+                "name": "Chimera Head",
+                "amt": 2
+            },
+            {
+                "name": "Feystone",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Magepower Shishak",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Magick Shard",
+        "price": 499,
+        "repeatable": true,
+        "description": "Shard of magicite engraved with a winged serpent. Strong magicks pulse from within.",
+        "need": [
+            {
+                "name": "Book of Orgain",
+                "amt": 8
+            },
+            {
+                "name": "Book of Orgain-Cent",
+                "amt": 8
+            },
+            {
+                "name": "Book of Orgain-Mille",
+                "amt": 8
+            }
+        ],
+        "get": [
+            {
+                "name": "Scathe Mote",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Magick Shard",
+        "price": 99,
+        "repeatable": true,
+        "description": "Shard of magicite engraved with a seraph. Strong magicks pulse from within.",
+        "need": [
+            {
+                "name": "Diakon Halcyon",
+                "amt": 1
+            },
+            {
+                "name": "Glass Jewel",
+                "amt": 8
+            },
+            {
+                "name": "Sky Jewel",
+                "amt": 8
+            }
+        ],
+        "get": [
+            {
+                "name": "Holy Mote",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Magick Shards",
+        "price": 1480,
+        "repeatable": false,
+        "description": "Engravings of water elementals adorn these shards of magicite. The magicks within are quite strong.",
+        "need": [
+            {
+                "name": "Festering Flesh",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Water Mote",
+                "amt": 5
+            }
+        ]
+    },
+    {
+        "name": "Marksman's Delight",
+        "price": 550,
+        "repeatable": false,
+        "description": "Contains one (1) Capella, a marksman's rifle, and one (1) pouch of a special shot imbued with silencing magicks.",
+        "need": [
+            {
+                "name": "Dark Stone",
+                "amt": 3
+            },
+            {
+                "name": "Fish Scale",
+                "amt": 2
+            },
+            {
+                "name": "Green Liquid",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Capella",
+                "amt": 1
+            },
+            {
+                "name": "Silent Shot",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Master-crafted Blade",
+        "price": 350000,
+        "repeatable": false,
+        "description": "A red zigzag pattern runs the length of the blade, weaving its way across delicate inlay.",
+        "need": [
+            {
+                "name": "Gemsteel",
+                "amt": 2
+            },
+            {
+                "name": "Mallet",
+                "amt": 2
+            },
+            {
+                "name": "Orichalcum",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Masamune I",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Matching Reds",
+        "price": 2480,
+        "repeatable": false,
+        "description": "Red cap and matching armor. The color softens and grows richer with wear.",
+        "need": [
+            {
+                "name": "Coeurl Pelt",
+                "amt": 3
+            },
+            {
+                "name": "Dark Magicite",
+                "amt": 3
+            },
+            {
+                "name": "Quality Hide",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Brigandine",
+                "amt": 1
+            },
+            {
+                "name": "Red Cap",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Matchless Metal",
+        "price": 29997,
+        "repeatable": true,
+        "description": "Alloy of unsurpassed hardness. Cannot be worked with ordinary tools.",
+        "need": [
+            {
+                "name": "Damascus Steel",
+                "amt": 2
+            },
+            {
+                "name": "Hell-Gate's Flame",
+                "amt": 2
+            },
+            {
+                "name": "Scarletite",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Gemsteel",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Memories of Yore",
+        "price": 999,
+        "repeatable": false,
+        "description": "The world to a child. The weight of the world to an old man.",
+        "need": [
+            {
+                "name": "Quality Stone",
+                "amt": 5
+            }
+        ],
+        "get": [
+            {
+                "name": "Pebble",
+                "amt": 99
+            }
+        ]
+    },
+    {
+        "name": "Monk's Garb",
+        "price": 3180,
+        "repeatable": false,
+        "description": "These pieces are said to wait for one whose heart burns with a worthy flame. They have seen service in battle, and surely smell the part.",
+        "need": [
+            {
+                "name": "Coeurl Pelt",
+                "amt": 4
+            },
+            {
+                "name": "Ice Magicite",
+                "amt": 4
+            },
+            {
+                "name": "Tyrant Hide",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Headband",
+                "amt": 1
+            },
+            {
+                "name": "Jujitsu Gi",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Morbid Urn",
+        "price": 250000,
+        "repeatable": false,
+        "description": "It has been said this urn was made to lock away all living souls. Whether true or not, a preternatural morbidity hands about it like a dark vapor.",
+        "need": [
+            {
+                "name": "Deimos Clay",
+                "amt": 1
+            },
+            {
+                "name": "Horakhty's Flame",
+                "amt": 1
+            },
+            {
+                "name": "Phobos Glaze",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Canopic Jar",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Mudslinger",
+        "price": 120000,
+        "repeatable": false,
+        "description": "Contains one (1) firearm and one (1) pouch of shot, made from hardened mud. The intent, of course, being to cover one's foes in mud, rendering them blind. And muddy.",
+        "need": [
+            {
+                "name": "Earth Crystal",
+                "amt": 8
+            },
+            {
+                "name": "Emperor Scale",
+                "amt": 2
+            },
+            {
+                "name": "Silver Liquid",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Aldebaran Y",
+                "amt": 1
+            },
+            {
+                "name": "Mud Shot",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Mysterious Substance",
+        "price": 14999,
+        "repeatable": false,
+        "description": "Mysterious substance that feeds on night's darkness. Beneath its surface lurk foreboding magicks.",
+        "need": [
+            {
+                "name": "Bat Wing",
+                "amt": 1
+            },
+            {
+                "name": "Grimoire Aidhed",
+                "amt": 3
+            },
+            {
+                "name": "Grimoire Togail",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Dark Energy",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Mystic Staff",
+        "price": 3600,
+        "repeatable": false,
+        "description": "Rings adorn the tip of this staff. They say that by peering through the rings one may catch a glimpse of a greater truth.",
+        "need": [
+            {
+                "name": "Demon Feather",
+                "amt": 6
+            },
+            {
+                "name": "Quality Lumber",
+                "amt": 4
+            },
+            {
+                "name": "Storm Crystal",
+                "amt": 7
+            }
+        ],
+        "get": [
+            {
+                "name": "Cloud Staff",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Nature's Armory",
+        "price": 13800,
+        "repeatable": false,
+        "description": "Clothing and crown made of twig and leaf. Steel's cold embrace is as nothing before the splendor of nature's bounty.",
+        "need": [
+            {
+                "name": "Fire Crystal",
+                "amt": 8
+            },
+            {
+                "name": "Forbidden Flesh",
+                "amt": 7
+            },
+            {
+                "name": "Prime Pelt",
+                "amt": 9
+            }
+        ],
+        "get": [
+            {
+                "name": "Crown of Laurels",
+                "amt": 1
+            },
+            {
+                "name": "Rubber Suit",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Ninja Footgear",
+        "price": 400,
+        "repeatable": false,
+        "description": "Originally made to quieten the footfalls of those who serve by being seen and not heard, these shoes soon found a place among those who serve by being neither seen nor heard.",
+        "need": [
+            {
+                "name": "Slaven Harness",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Gillie Boots",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Ninja Garb",
+        "price": 4800,
+        "repeatable": false,
+        "description": "Both pieces of this classic ninja outfit are entirely black, loose-fitting, and made of a unique material that aids movement.",
+        "need": [
+            {
+                "name": "Fine Wool",
+                "amt": 4
+            },
+            {
+                "name": "Fire Magicite",
+                "amt": 5
+            },
+            {
+                "name": "Tanned Tyrant Hide",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Black Cowl",
+                "amt": 1
+            },
+            {
+                "name": "Black Garb",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Noisome Incendiaries",
+        "price": 3280,
+        "repeatable": false,
+        "description": "Contains one (1) incendiary device and one (1) pouch of poison-spewing bombs. Poison volume regulated by mandate.",
+        "need": [
+            {
+                "name": "Bomb Shell",
+                "amt": 1
+            },
+            {
+                "name": "Fire Crystal",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Fumarole",
+                "amt": 1
+            },
+            {
+                "name": "Poison Bombs",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Oil-soaked Incendiaries",
+        "price": 10625,
+        "repeatable": false,
+        "description": "Contains one (1) incendiary device, the Tumulus, and one (1) pouch of bombs. The bombs contain a fortified blasting glycerin, and are themselves wrapped in a combustible cloth.",
+        "need": [
+            {
+                "name": "Bomb Ashes",
+                "amt": 3
+            },
+            {
+                "name": "Book of Orgain",
+                "amt": 2
+            },
+            {
+                "name": "Fire Crystal",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Oil Bombs",
+                "amt": 1
+            },
+            {
+                "name": "Tumulus",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Permafrost Bow & Quiver",
+        "price": 17200,
+        "repeatable": false,
+        "description": "Contains one (1) quiver of arrows, made of packed permafrost, and one (1) bow of surpassing quality, said to have been carried by a great hero of antiquity.",
+        "need": [
+            {
+                "name": "Antarctic Wind",
+                "amt": 2
+            },
+            {
+                "name": "Ice Crystal",
+                "amt": 7
+            },
+            {
+                "name": "Spiral Incisor",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Icecloud Arrows",
+                "amt": 1
+            },
+            {
+                "name": "Perseus Bow",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Phials & Philtres",
+        "price": 1980,
+        "repeatable": false,
+        "description": "Contains C9H8O4s and smelling salts, in good quantity, at a price not to be passed by!",
+        "need": [
+            {
+                "name": "Malboro Flower",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Smelling Salts",
+                "amt": 16
+            },
+            {
+                "name": "C9H8O4",
+                "amt": 8
+            }
+        ]
+    },
+    {
+        "name": "Phoenix Flight",
+        "price": 8750,
+        "repeatable": false,
+        "description": "Restocked and better than ever! You are not like to find a lower price on tufts of phoenix down, perennial facorite of adventurers far and wide!",
+        "need": [
+            {
+                "name": "Windslicer Pinion",
+                "amt": 5
+            }
+        ],
+        "get": [
+            {
+                "name": "Phoenix Down",
+                "amt": 50
+            }
+        ]
+    },
+    {
+        "name": "Piercing Bolts",
+        "price": 1680,
+        "repeatable": false,
+        "description": "The finest bolts money can buy. Loosed, they resemble the javelins of the heroes of antiquity, hurtling straight and true toward their mark.",
+        "need": [
+            {
+                "name": "Capricorn Gem",
+                "amt": 3
+            },
+            {
+                "name": "Ring Wyrm Liver",
+                "amt": 2
+            },
+            {
+                "name": "Wrath of the Gods",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Grand Bolts",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Platinum Gear",
+        "price": 9800,
+        "repeatable": false,
+        "description": "Made using only the finest materials, this set of platinum gear gleams handsomely in the light.",
+        "need": [
+            {
+                "name": "Insect Husk",
+                "amt": 2
+            },
+            {
+                "name": "Storm Magicite",
+                "amt": 6
+            },
+            {
+                "name": "Tanned Giantskin",
+                "amt": 5
+            }
+        ],
+        "get": [
+            {
+                "name": "Platinum Armor",
+                "amt": 1
+            },
+            {
+                "name": "Platinum Helm",
+                "amt": 1
+            },
+            {
+                "name": "Platinum Shield",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Potion Crate",
+        "price": 7480,
+        "repeatable": false,
+        "description": "A must for any potion connoisseur! Contains several of each variety. Consider you restorative needs when deciding which to drink. And please, drink responsibly.",
+        "need": [
+            {
+                "name": "Screamroot",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Hi-Potion",
+                "amt": 20
+            },
+            {
+                "name": "Potion",
+                "amt": 30
+            },
+            {
+                "name": "X-Potion",
+                "amt": 10
+            }
+        ]
+    },
+    {
+        "name": "Potion Pack",
+        "price": 70,
+        "repeatable": false,
+        "description": "Contains two (2) potions. Sure to be of use on your travels!",
+        "need": [
+            {
+                "name": "Cactus Fruit",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Potion",
+                "amt": 2
+            }
+        ]
+    },
+    {
+        "name": "Rain of Tears",
+        "price": 800,
+        "repeatable": false,
+        "description": "Contains one (1) Vega, and one (1) pouch of water shot, which bear a striking semblance to tears. Every bit as useful against those fiery beasties as you'd hope!",
+        "need": [
+            {
+                "name": "Green Liquid",
+                "amt": 3
+            },
+            {
+                "name": "Water Stone",
+                "amt": 4
+            },
+            {
+                "name": "Yensa Scale",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Aqua Shot",
+                "amt": 1
+            },
+            {
+                "name": "Vega",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Ranger's Crossbow",
+        "price": 1080,
+        "repeatable": false,
+        "description": "Contains one (1) crossbow and one (1) quiver of bolts, cut long. A favorite weapon of the ranger.",
+        "need": [
+            {
+                "name": "Crooked Fang",
+                "amt": 4
+            },
+            {
+                "name": "Ice Stone",
+                "amt": 1
+            },
+            {
+                "name": "Yellow Liquid",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Crossbow",
+                "amt": 1
+            },
+            {
+                "name": "Long Bolts",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Saint's Draught",
+        "price": 36000,
+        "repeatable": true,
+        "description": "Legendary draught mixed from waters divine, said to mend all wounds great and small. Every adventurer should keep one close to hand.",
+        "need": [
+            {
+                "name": "Ambrosia",
+                "amt": 3
+            },
+            {
+                "name": "Demon Drink",
+                "amt": 3
+            },
+            {
+                "name": "High Arcana",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Elixir",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Samurai's Katana",
+        "price": 8400,
+        "repeatable": false,
+        "description": "Fashioned after a legendary blade made from the tail of a dragon. Called the Great Scythe in the eastern kingdoms, it is said to have reaped entire fields in a single swing.",
+        "need": [
+            {
+                "name": "Iron Ore",
+                "amt": 5
+            },
+            {
+                "name": "Screamroot",
+                "amt": 7
+            },
+            {
+                "name": "Water Crystal",
+                "amt": 9
+            }
+        ],
+        "get": [
+            {
+                "name": "Ame-no-Murakumo",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Scout's Crossbow",
+        "price": 6400,
+        "repeatable": false,
+        "description": "Contains one (1) quiver of enchanted bolts, and one (1) crossbow. Scouts of great skill are known to favor such as these.",
+        "need": [
+            {
+                "name": "Ancient Bone",
+                "amt": 3
+            },
+            {
+                "name": "Holy Crystal",
+                "amt": 9
+            },
+            {
+                "name": "Wyvern Fang",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Penetrator Crossbow",
+                "amt": 1
+            },
+            {
+                "name": "Time Bolts",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Serpent Blade",
+        "price": 90000,
+        "repeatable": false,
+        "description": "This sword's blade resembles an ophidian tongue, ornately wrought.",
+        "need": [
+            {
+                "name": "Cancer Gem",
+                "amt": 3
+            },
+            {
+                "name": "Coeurl Whisker",
+                "amt": 2
+            },
+            {
+                "name": "Sickle-Blade",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Orochi N",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Shell-worked Collar",
+        "price": 6000,
+        "repeatable": false,
+        "description": "The clasp of this necklace is fashioned from tortoiseshell. For those with discriminating taste.",
+        "need": [
+            {
+                "name": "Bomb Shell",
+                "amt": 2
+            },
+            {
+                "name": "Four-leaf Clover",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Turtleshell Choker",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Shoes of the Dead",
+        "price": 450,
+        "repeatable": false,
+        "description": "Footgear worn by those preparing for their eternal rest. Redolent of death.",
+        "need": [
+            {
+                "name": "Destrier Mane",
+                "amt": 1
+            },
+            {
+                "name": "Zombie Powder",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Quasimodo Boots",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Silver Bow",
+        "price": 100000,
+        "repeatable": false,
+        "description": "Crafted of a beautiful silver metal and adorned with thorns of deep magenta. The handle is affixed with a small shield.",
+        "need": [
+            {
+                "name": "Beastlord Horn",
+                "amt": 3
+            },
+            {
+                "name": "Moon Ring",
+                "amt": 3
+            },
+            {
+                "name": "Sagittarius Gem",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Sagittarius A",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Sipping Wine",
+        "price": 240,
+        "repeatable": false,
+        "description": "One swallow and you will know why they call them spirits. \"Lose yourself in the first sip, find yourself in the second.\"",
+        "need": [
+            {
+                "name": "Tyrant Hide",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Bacchus' Wine",
+                "amt": 3
+            }
+        ]
+    },
+    {
+        "name": "Smelling Salts, &c.",
+        "price": 540,
+        "repeatable": false,
+        "description": "Venture on neither hunt nor quest without this set of hi-potions and smelling salts in your haversack.",
+        "need": [
+            {
+                "name": "Malboro Vine",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Hi-Potion",
+                "amt": 4
+            },
+            {
+                "name": "Smelling Salts",
+                "amt": 2
+            }
+        ]
+    },
+    {
+        "name": "Soul of the Fire-bird",
+        "price": 5980,
+        "repeatable": false,
+        "description": "By popular demand, we've assembled no fewer than twenty-five (25) tufts of phoenix down. Don't let yourself be caught down for the count!",
+        "need": [
+            {
+                "name": "Bundle of Feathers",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Phoenix Down",
+                "amt": 25
+            }
+        ]
+    },
+    {
+        "name": "Stone Shot",
+        "price": 1480,
+        "repeatable": false,
+        "description": "Contains one (1) pouch of stone shot. This shot could easily pass for some sort of petrified egg.",
+        "need": [
+            {
+                "name": "Libra Gem",
+                "amt": 3
+            },
+            {
+                "name": "Mirror Scale",
+                "amt": 2
+            },
+            {
+                "name": "Tyrant Bone",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Stone Shot",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Sturdy Battle Gear",
+        "price": 8000,
+        "repeatable": false,
+        "description": "Armor of the highest quality, crafted by masters of their art, its materials and design carefully selected to provide surpassing resilience.",
+        "need": [
+            {
+                "name": "Charger Barding",
+                "amt": 4
+            },
+            {
+                "name": "Pisces Gem",
+                "amt": 3
+            },
+            {
+                "name": "Split Armor",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Maximillian",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Survival Set",
+        "price": 1500,
+        "repeatable": false,
+        "description": "It's difficult to prepare for every eventuality you may encounter in your travels, but this set is a good start. A healthy supply of antidotes, eye drops, and echo herbs.",
+        "need": [
+            {
+                "name": "Malboro Fruit",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Antidote",
+                "amt": 12
+            },
+            {
+                "name": "Echo Herbs",
+                "amt": 12
+            },
+            {
+                "name": "Eye Drops",
+                "amt": 12
+            }
+        ]
+    },
+    {
+        "name": "Tail of the Phoenix",
+        "price": 400,
+        "repeatable": false,
+        "description": "Should the unthinkable befall your allies, you'll want this close to hand. Contains two (2) tufts of phoenix down.",
+        "need": [
+            {
+                "name": "Small Feather",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Phoenix Down",
+                "amt": 2
+            }
+        ]
+    },
+    {
+        "name": "The Leering Blade",
+        "price": 8800,
+        "repeatable": false,
+        "description": "A demon has been carved into the body of this sword. The frozen leer of its jaw forms a cruel, cutting blade.",
+        "need": [
+            {
+                "name": "Dark Crystal",
+                "amt": 10
+            },
+            {
+                "name": "Demon Tail",
+                "amt": 7
+            },
+            {
+                "name": "Broken Sword",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Deathbringer",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "The Scorpion",
+        "price": 70000,
+        "repeatable": false,
+        "description": "Hammer made in imitation of a giant scorpion tail. Capable of inflicting devastating damage.",
+        "need": [
+            {
+                "name": "Charged Gizzard",
+                "amt": 3
+            },
+            {
+                "name": "Scorpio Gem",
+                "amt": 4
+            },
+            {
+                "name": "Wyrm Bone",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Scorpion Tail F",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "The Sunflower",
+        "price": 600000,
+        "repeatable": false,
+        "description": "A single, beautiful sunflower. Brilliant as the sun, wondrous as creation.",
+        "need": [
+            {
+                "name": "Empyreal Soul",
+                "amt": 3
+            },
+            {
+                "name": "Gemsteel",
+                "amt": 3
+            },
+            {
+                "name": "Serpentarius",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Tournesol",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Tinctures & Tonics",
+        "price": 700,
+        "repeatable": false,
+        "description": "This set should serve well in a pinch! A generous supply of potions, handkerchiefs, and gold needles.",
+        "need": [
+            {
+                "name": "Succulent Fruit",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Gold Needle",
+                "amt": 3
+            },
+            {
+                "name": "Handkerchief",
+                "amt": 3
+            },
+            {
+                "name": "Potion",
+                "amt": 5
+            }
+        ]
+    },
+    {
+        "name": "Traveler's Garb",
+        "price": 1890,
+        "repeatable": false,
+        "description": "Robe and cap ensemble for the traveler on the go. In the linings of each are sewn charms warding against misfortune.",
+        "need": [
+            {
+                "name": "Braid Wool",
+                "amt": 2
+            },
+            {
+                "name": "Tanned Hide",
+                "amt": 2
+            },
+            {
+                "name": "Water Stone",
+                "amt": 5
+            }
+        ],
+        "get": [
+            {
+                "name": "Feathered Cap",
+                "amt": 1
+            },
+            {
+                "name": "Traveler's Vestment",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Triage Kit",
+        "price": 2980,
+        "repeatable": false,
+        "description": "Travelers, be prepared! Contains both hi-potions and tufts of phoenix down, so you can venture out with confidence.",
+        "need": [
+            {
+                "name": "Giant Feather",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Hi-Potion",
+                "amt": 3
+            },
+            {
+                "name": "Phoenix Down",
+                "amt": 12
+            }
+        ]
+    },
+    {
+        "name": "Ultimate Blade",
+        "price": 12800,
+        "repeatable": false,
+        "description": "A layered-disc pattern runs the length of this magnificent blade. Its power is legendary, a single blow laying low all but the most resolute adversary.",
+        "need": [
+            {
+                "name": "Adamantite",
+                "amt": 2
+            },
+            {
+                "name": "Death Powder",
+                "amt": 2
+            },
+            {
+                "name": "Gnoma Halcyon",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "Ultima Blade",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Unassuming Surcoat",
+        "price": 100,
+        "repeatable": false,
+        "description": "Simple surcoat, stitched from choice pieces of leather.",
+        "need": [
+            {
+                "name": "Earth Stone",
+                "amt": 1
+            },
+            {
+                "name": "Wolf Pelt",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Chromed Leathers",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "C9H8O4 Pack",
+        "price": 999,
+        "repeatable": true,
+        "description": "Leaving for foreign climes? Disease can strike at any time... Best be prepared! Contains ten (10) C9H8O4.",
+        "need": [
+            {
+                "name": "Demon's Sigh",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "C9H8O4",
+                "amt": 10
+            }
+        ]
+    },
+    {
+        "name": "War Axe",
+        "price": 4680,
+        "repeatable": false,
+        "description": "In antiquity this small axe was primarily used as a throwing weapon.",
+        "need": [
+            {
+                "name": "Malboro Fruit",
+                "amt": 4
+            },
+            {
+                "name": "Pointed Horn",
+                "amt": 2
+            },
+            {
+                "name": "Wind Magicite",
+                "amt": 6
+            }
+        ],
+        "get": [
+            {
+                "name": "Francisca",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Warped Blade",
+        "price": 5650,
+        "repeatable": false,
+        "description": "So strong is the substance of this blade, the warp in its edge could not be mended. Sold as is.",
+        "need": [
+            {
+                "name": "Bundle of Feathers",
+                "amt": 6
+            },
+            {
+                "name": "Fire Magicite",
+                "amt": 6
+            },
+            {
+                "name": "Maggoty Flesh",
+                "amt": 4
+            }
+        ],
+        "get": [
+            {
+                "name": "Diamond Sword",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Water-drop Munitions",
+        "price": 2640,
+        "repeatable": false,
+        "description": "Palm-sized orbs containing a magicked water.",
+        "need": [
+            {
+                "name": "Book of Orgain",
+                "amt": 3
+            },
+            {
+                "name": "Putrid Liquid",
+                "amt": 3
+            },
+            {
+                "name": "Water Crystal",
+                "amt": 10
+            }
+        ],
+        "get": [
+            {
+                "name": "Water Bombs",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Well-forged Blade",
+        "price": 21600,
+        "repeatable": false,
+        "description": "Replica of a great sword of legend. It lacks the vivid coloring of the original, but is elsewise its match.",
+        "need": [
+            {
+                "name": "Ring Wyrm Scale",
+                "amt": 4
+            },
+            {
+                "name": "Leshach Halcyon",
+                "amt": 1
+            },
+            {
+                "name": "Lifewick",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Durandal A",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Whisker of the Beast",
+        "price": 60000,
+        "repeatable": false,
+        "description": "Spear-like in appearance, this pole takes its name from what many consider the greatest beast to dwell in the deeps.",
+        "need": [
+            {
+                "name": "Aquarius Gem",
+                "amt": 4
+            },
+            {
+                "name": "Corpse Fly",
+                "amt": 3
+            },
+            {
+                "name": "Mythril",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Whale Whisker N",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "White Vestments",
+        "price": 12800,
+        "repeatable": false,
+        "description": "Protectives preferred by practitioners of the white magick arts.",
+        "need": [
+            {
+                "name": "Blood Wool",
+                "amt": 9
+            },
+            {
+                "name": "Beastlord Hide",
+                "amt": 7
+            },
+            {
+                "name": "Holy Crystal",
+                "amt": 8
+            }
+        ],
+        "get": [
+            {
+                "name": "White Mask",
+                "amt": 1
+            },
+            {
+                "name": "White Robes",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Wind Walkers",
+        "price": 18000,
+        "repeatable": false,
+        "description": "Intricate magick glyphs adorn the lining of these boots, conveying arcane powers to their wearer.",
+        "need": [
+            {
+                "name": "Arcana",
+                "amt": 15
+            },
+            {
+                "name": "Gysahl Greens",
+                "amt": 33
+            }
+        ],
+        "get": [
+            {
+                "name": "Hermes Sandals",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Wing Cord",
+        "price": 2000,
+        "repeatable": false,
+        "description": "Fashioned in the likeness of a pheasant, this is a tremendously popular item.",
+        "need": [
+            {
+                "name": "Stardust",
+                "amt": 2
+            }
+        ],
+        "get": [
+            {
+                "name": "Pheasant Netsuke",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "Wooden Pole",
+        "price": 480,
+        "repeatable": false,
+        "description": "One (1) pole, carved from a fine-grain wood highly prized in the eastern kingdoms. It has been reinforced in places with strips of metal for added strength.",
+        "need": [
+            {
+                "name": "Bone Fragment",
+                "amt": 5
+            },
+            {
+                "name": "Earth Stone",
+                "amt": 4
+            },
+            {
+                "name": "Succulent Fruit",
+                "amt": 3
+            }
+        ],
+        "get": [
+            {
+                "name": "Cypress Pole",
+                "amt": 1
+            }
+        ]
+    },
+    {
+        "name": "X-Potion Pack",
+        "price": 4444,
+        "repeatable": true,
+        "description": "Momentous battle on the horizon? Best be sure of your potion supply before charging in. Contains ten (10) x-potions.",
+        "need": [
+            {
+                "name": "Behemoth Steak",
+                "amt": 1
+            }
+        ],
+        "get": [
+            {
+                "name": "X-Potion",
+                "amt": 10
+            }
+        ]
+    }
+]
