@@ -1,6 +1,15 @@
-# The Zodiac APP
+
+<p align="center">
+    <a href="https://tzapp.github.io/" rel="noopener" target="_blank">
+        <img width="256" src="/public/image/icons/icon-512x512.png" alt="TZAPP logo">
+    </a>
+</p>
+
+<h1 align="center">The Zodiac APP</h1>
 
 This is an Fan APP about the great Final Fantasy XII game by Square Enix. https://tzapp.github.io/
+
+---
 
 ## About
 
