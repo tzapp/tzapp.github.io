@@ -15,11 +15,11 @@ export default class componentName extends Component {
                     <ListItem button component={Link} to="/bazaar">
                         <ListItemText primary="Bazaar" secondary="Bazaar recipes and details." />
                     </ListItem>
-                    <ListItem button component={Link} to="/hunts">
-                        <ListItemText primary="Hunts" secondary="Hunts instructions, rewards and tips." />
-                    </ListItem>
                     <ListItem button component={Link} to="/bestiary">
                         <ListItemText primary="Bestiary" secondary="Details about monsters." />
+                    </ListItem>
+                    <ListItem button component={Link} to="/hunts">
+                        <ListItemText primary="Hunts" secondary="Hunts instructions, rewards and tips." />
                     </ListItem>
                 </List>
             </Fragment>

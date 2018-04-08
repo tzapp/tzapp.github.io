@@ -4,16 +4,18 @@ import themeColor from 'material-ui/colors/deepPurple';
 import 'typeface-roboto';
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import FutureFeature from './components/future-feature'
-import { Home, ItemList } from './components'
+import { Home, ItemList, About } from './components'
 import { Button, Snackbar } from 'material-ui'
 import { BazaarList } from './components/bazaar'
+
+import { Bestiary, Monster } from './components/monsters'
 
 const theme = createMuiTheme({
     palette: {
         primary: themeColor
     },
 });
-
+const bestiaryRendered = <Bestiary />
 class App extends Component {
     constructor(props) {
         super(props);
@@ -40,9 +42,13 @@ class App extends Component {
                             <Route exact path="/" component={Home} />
                             <Route path="/items" component={ItemList} />
                             <Route path="/bazaar" component={BazaarList} />
-                            
+                            <Route path="/about" component={About} />
+                            <Route exact path="/bestiary" render={() => bestiaryRendered} />
+                            <Route path="/bestiary/:id" render={(({ match }) =>
+                                <Monster id={Number(match.params.id)} />
+                            )} />
+
                             <Route path="/hunts" render={() => <FutureFeature title="Hunts" />} />
-                            <Route path="/bestiary" render={() => <FutureFeature title="Bestiary" />} />
                         </Switch>
                         <Snackbar
                             open={this.state.showInstalledMessage}

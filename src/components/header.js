@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
-import AppBar from 'material-ui/AppBar';
-import Toolbar from 'material-ui/Toolbar';
-import Typography from 'material-ui/Typography';
-import IconButton from 'material-ui/IconButton';
-import { withStyles } from 'material-ui/styles';
-import SwipeableDrawer from 'material-ui/SwipeableDrawer';
-import List, { ListItem, ListItemText, ListItemIcon } from 'material-ui/List';
 import { Link } from 'react-router-dom'
-import Divider from 'material-ui/Divider';
 import Share from './share'
+import { Divider, Drawer, IconButton, Typography, Toolbar, AppBar, List, ListItem, ListItemText, ListItemIcon, withStyles } from 'material-ui'
 import {
     Menu as MenuIcon,
     ArrowBack as ArrowBackIcon,
     Share as ShareIcon,
-    Code as CodeIcon
+    Code as CodeIcon,
+    Info as InfoIcon,
 } from 'material-ui-icons'
 
 
@@ -43,12 +37,12 @@ class Header extends Component {
     goBack = () => window.history.back()
 
     render() {
-        const { classes, children, title = 'The Zodiac APP', backButton = false, rightAction } = this.props
+        const { children, classes, title = 'The Zodiac APP', backButton = false, rightAction, AppBarProps, ...props } = this.props
 
         const Icon = backButton ? ArrowBackIcon : MenuIcon;
         return (
-            <header className={classes.root}>
-                <AppBar>
+            <header className={classes.root} {...props} >
+                <AppBar {...AppBarProps}>
                     <Toolbar>
                         <div className={classes.menuButtonWrapper}>
                             <IconButton color="inherit" aria-label="Menu" onClick={backButton ? this.goBack : this.toggleMenu}>
@@ -56,15 +50,15 @@ class Header extends Component {
                             </IconButton>
                         </div>
                         <Typography variant="title" color="inherit" className={classes.flex}>
-                            {children || title}
+                            {title}
                         </Typography>
                         {rightAction && <div>{rightAction}</div>}
                     </Toolbar>
+                    {children}
                 </AppBar>
-                <SwipeableDrawer
+                <Drawer
                     open={this.state.menuOpen}
                     onClose={this.toggleMenu}
-                    onOpen={this.toggleMenu}
                 >
                     <div
                         style={{ width: 250 }}
@@ -82,11 +76,11 @@ class Header extends Component {
                             <ListItem button component={Link} to="/bazaar">
                                 <ListItemText primary="Bazaar" />
                             </ListItem>
-                            <ListItem button component={Link} to="/hunts">
-                                <ListItemText primary="Hunts" />
-                            </ListItem>
                             <ListItem button component={Link} to="/bestiary">
                                 <ListItemText primary="Bestiary" />
+                            </ListItem>
+                            <ListItem button component={Link} to="/hunts">
+                                <ListItemText primary="Hunts" />
                             </ListItem>
                         </List>
                         <Divider />
@@ -111,9 +105,15 @@ class Header extends Component {
                                 </ListItemIcon>
                                 <ListItemText primary="Help on GitHub" />
                             </ListItem>
+                            <ListItem button component={Link} to="/about">
+                                <ListItemIcon>
+                                    <InfoIcon />
+                                </ListItemIcon>
+                                <ListItemText primary="About" />
+                            </ListItem>
                         </List>
                     </div>
-                </SwipeableDrawer>
+                </Drawer>
             </header>
         )
     }
