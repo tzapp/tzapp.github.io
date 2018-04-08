@@ -7,6 +7,7 @@ import BestiaryData from '../../database/bestiary.json'
 import MonsterItems from './MonsterItems'
 import MonsterVariations from './MonsterVariations'
 import MonsterInfo from './MonsterInfo'
+import ShareButton from '../ShareIconButton'
 
 export default class Monster extends Component {
 
@@ -23,7 +24,13 @@ export default class Monster extends Component {
         const { name, variations, items, ...monster } = BestiaryData[this.props.id]
         return (
             <article>
-                <Header title={name} style={{ paddingTop: 64 + 48 }} backButton>
+                <Header title={name} style={{ paddingTop: 64 + 48 }} backButton rightAction={
+                    <ShareButton color="inherit" shareData={{
+                        title: `${name} - Bestiary - TZAPP`,
+                        text: `${name} - Bestiary - TZAPP`,
+                        url: window.location.href,
+                    }} />
+                }>
                     <Tabs
                         value={this.state.tab}
                         onChange={(e, tab) => this.changeTab(tab)}

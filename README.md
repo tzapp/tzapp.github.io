@@ -25,4 +25,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The list of things that need to be done can be found [Here](https://github.com/tzapp/tzapp.github.io/issues/1)
 
-*Note*: The DB Conversion needs to be in JSON. 
+*Note*: The DB Conversion needs to be in JSON.
